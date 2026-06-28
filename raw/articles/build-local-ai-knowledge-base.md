@@ -1,1 +1,0 @@
-https://youmind.com/zh-TW/landing/x-viral-articles/build-local-ai-knowledge-base
