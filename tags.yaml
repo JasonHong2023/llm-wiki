@@ -2,45 +2,46 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 25
+    count: 116
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: 中文
-    count: 23
+    count: 123
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: English
-    count: 24
+    count: 129
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: 技術
-    count: 24
+    count: 118
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: programming
-    count: 24
+    count: 118
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: development
-    count: 22
+    count: 114
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: Python
-    count: 1
+    count: 4
     first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
+    last_updated: '2026-06-30'
     related:
     - 非同步
   - name: 非同步
-    count: 1
+    count: 5
     first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
+    last_updated: '2026-06-30'
     related:
     - Python
+    - async
   - name: scripting
-    count: 1
+    count: 4
     first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
+    last_updated: '2026-06-30'
   - name: TypeScript
     count: 2
     first_seen: '2026-06-27'
@@ -50,17 +51,17 @@ categories:
     first_seen: '2026-06-27'
     last_updated: '2026-06-27'
   - name: web
-    count: 3
+    count: 4
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: API
-    count: 7
+    count: 16
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: REST
-    count: 7
+    count: 16
     first_seen: '2026-06-27'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: Docker
     count: 1
     first_seen: '2026-06-27'
@@ -72,25 +73,187 @@ categories:
 - name: 程式語言
   tags:
   - name: JavaScript
-    count: 1
+    count: 2
     first_seen: '2026-06-28'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
 - name: 主題
   tags:
   - name: frontend
-    count: 1
+    count: 2
     first_seen: '2026-06-28'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
   - name: 資料庫
-    count: 1
+    count: 4
     first_seen: '2026-06-28'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
+  - name: 研究
+    count: 5
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: research
+    count: 5
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: analysis
+    count: 5
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 商業
+    count: 10
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: business
+    count: 10
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: async
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+    related:
+    - 非同步
+  - name: 會議技巧
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 會議管理
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 時間管理
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 團隊協作
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 領導力
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 會議規劃
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 會議跟進
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 商業管理
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 知乎
+    count: 2
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 登录
+    count: 2
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 验证
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 网络安全
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 技术
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 用户体验
+    count: 2
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 网站
+    count: 2
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 安全验证
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 反馈
+    count: 2
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: Obsidian
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: AI Agent
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 個人知識庫
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 知識圖譜
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 版本控制
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 紫微斗數
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 中國命理
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 占星術
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 星命學
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 古籍
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 星盤
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 命理學
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: 星垣
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
 - name: 技術
   tags:
   - name: database
-    count: 1
+    count: 4
     first_seen: '2026-06-28'
-    last_updated: '2026-06-28'
+    last_updated: '2026-06-30'
+- name: 概念
+  tags:
+  - name: strategy
+    count: 10
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+- name: AI
+  tags:
+  - name: LLM
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
+  - name: RAG
+    count: 1
+    first_seen: '2026-06-30'
+    last_updated: '2026-06-30'
 metadata:
-  last_updated: '2026-06-28'
+  last_updated: '2026-06-30'
   version: '1.0'

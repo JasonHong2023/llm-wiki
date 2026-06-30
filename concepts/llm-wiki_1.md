@@ -1,0 +1,375 @@
+---
+title: LLM Wiki 使用说明
+type: framework
+created: 2026-06-30T18:59
+updated: 2026-06-30T18:59
+tags: [Markdown, 中文, English, 技術, programming, development, API, REST, source:github]
+confidence: high
+---
+
+# LLM Wiki 使用说明
+
+## 简介
+
+LLM Wiki 是一种用 LLM 构建个人知识库的方法论。与传统 RAG（每次查询从头检索）不同，LLM 会**持续构建并维护一个结构化的 Markdown Wiki**，知识随每次导入和查询不断积累，形成复利效应。
+
+> 类比：Obsidian 是 IDE，LLM 是程序员，Wiki 是代码库。
+<img width="540" height="369" alt="image" src="https://github.com/user-attachments/assets/62e7f1f1-c167-4186-ac4f-0e5a596bacb3" />
+<img width="673" height="959" alt="image" src="https://github.com/user-attachments/assets/e940afda-fe57-4e2d-8734-b2b6ca1baa87" />
+---
+
+## 安装 Skill
+
+Skill 文件已位于 `~/.claude/skills/llm-wiki/SKILL.md`，Claude Code 会自动识别。
+
+如果从 GitHub 克隆恢复，将 `skill/SKILL.md` 复制到对应位置即可：
+
+```bash
+mkdir -p ~/.claude/skills/llm-wiki
+cp skill/SKILL.md ~/.claude/skills/llm-wiki/SKILL.md
+```
+
+---
+
+## 目录结构
+
+```
+项目根目录/
+  raw/                  # 原始资料（不可变，LLM 只读）
+    assets/             # 图片、附件
+    文章标题.md          # 剪藏的文章
+  wiki/                 # LLM 生成维护的知识库页面
+    index.md            # 内容索引目录
+    log.md              # 操作日志（按时间追加）
+    source-xxx.md       # 资料摘要页
+    实体名.md            # 实体页（工具、产品、人物）
+    概念名.md            # 概念页（方法论、模式）
+    xxx-workflow.md     # 工作流页面
+  skill/                # Skill 文件备份
+    SKILL.md
+```
+
+### 页面命名规范
+
+| 页面类型 | 命名格式 | 示例 |
+|----------|---------|------|
+| 资料摘要 | `source-{关键词}.md` | `source-claude-code-n8n-workflow.md` |
+| 实体页 | `{实体名}.md` | `claude-code.md`、`n8n.md` |
+| 概念页 | `{概念名}.md` | `two-layer-automation.md` |
+| 工作流 | `{场景}-workflow.md` | `competitive-analysis-workflow.md` |
+
+### 页面 Frontmatter 模板
+
+```yaml
+# 资料摘要页
+---
+tags: [source-summary, 领域标签1, 领域标签2]
+source: "原文标题"
+author: 作者名
+date: YYYY-MM-DD
+url: "原始链接"
+---
+
+# 实体页
+---
+tags: [entity, tool]
+type: entity
+---
+
+# 概念页
+---
+tags: [concept]
+type: concept
+---
+```
+
+---
+
+## 三大操作
+
+### 1. Ingest（导入资料）
+
+#### 如何获取资料
+
+**推荐方式：Obsidian Web Clipper**
+
+微信公众号等网站有反爬机制，无法直接通过命令行抓取。推荐流程：
+
+1. 在浏览器安装 **Obsidian Web Clipper** 扩展
+2. 打开文章，点击扩展图标剪藏为 Markdown
+3. 将 `.md` 文件放入项目的 `raw/` 目录
+
+剪藏后的文件自带 YAML frontmatter（title、source、author、created、tags），可直接利用。
+
+#### 导入流程
+
+将资料放入 `raw/` 目录后，告诉 Claude：
+
+```
+请导入 raw/文章标题.md 到知识库
+```
+
+Claude 会执行以下操作（一篇 2000-3000 字的文章通常触及 5-8 个文件）：
+
+1. 阅读资料，与你讨论关键要点
+2. 创建摘要页 `wiki/source-xxx.md`
+3. 创建/更新相关实体页和概念页（通常 1-3 个新页面）
+4. 在所有页面之间建立 `[[双向链接]]` 交叉引用
+5. 更新 `wiki/index.md` 索引
+6. 在 `wiki/log.md` 追加导入记录
+7. 标注新资料与已有内容的矛盾或补充关系
+
+#### 导入第二篇及以后的资料
+
+知识库的价值在于积累。从第二篇开始，Claude 会额外做：
+
+- **更新已有页面**：新案例/数据补充到已有的实体页和概念页，而非只创建新页面
+- **标注跨资料关联**：多篇资料出现相似观点时在页面中明确标注
+- **标注矛盾**：不同资料的冲突观点会被标注，不会偷偷覆盖
+
+> 这就是复利——第 10 篇资料导入时，知识库的交叉引用和综合分析已经远超单篇文章能给你的。
+
+### 2. Query（查询）
+
+直接向 Claude 提问：
+
+```
+根据知识库，对比 X 和 Y 的区别
+知识库里关于 XX 有什么要点？
+总结一下目前所有资料的核心观点
+```
+
+Claude 会先读 `wiki/index.md` 定位相关页面，再深入阅读后综合回答。
+
+**关键**：有价值的回答可以回写为新 Wiki 页面，让探索也能积累。
+
+### 3. Lint（维护健康）
+
+定期让 Claude 检查：
+
+```
+请检查知识库的健康状态
+```
+
+检查项目：
+- 页面间的矛盾内容
+- 被新资料取代的过时信息
+- 无入站链接的孤立页面
+- 被提及但缺少专属页面的重要概念
+- 缺失的交叉引用
+- 可填补的数据空白
+
+---
+
+## 快速开始（5 分钟上手）
+
+### Step 1：初始化
+
+在空文件夹中打开 Claude Code：
+
+```
+请帮我初始化一个 LLM Wiki 知识库
+```
+
+### Step 2：放入第一份资料
+
+用 Obsidian Web Clipper 剪藏一篇文章，放到 `raw/` 目录：
+
+```
+请导入 raw/文章标题.md 到知识库
+```
+
+### Step 3：开始提问
+
+```
+知识库中关于 XX 话题有哪些要点？
+```
+
+### 日常使用速查
+
+| 你做什么 | 说什么 |
+|----------|--------|
+| 刚开始 | "初始化一个知识库" |
+| 加了新资料 | "导入 raw/文件名.md" |
+| 想了解什么 | 直接问 |
+| 维护检查 | "检查知识库健康状态" |
+
+核心就一句话：**你负责找资料和提问，Claude 负责整理和维护。**
+
+---
+
+## 推荐工具搭配
+
+| 工具 | 用途 | 必要性 |
+|------|------|--------|
+| **Obsidian** | 浏览 Wiki、查看图谱视图、实时预览页面关联 | 强烈推荐 |
+| **Obsidian Web Clipper** | 浏览器一键剪藏网页文章为 Markdown | 强烈推荐 |
+| **Git** | 版本控制，天然拥有历史记录 | 推荐 |
+| **Dataview** (Obsidian 插件) | 基于 frontmatter 生成动态表格和列表 | 可选 |
+| **Marp** | 从 Wiki 内容生成演示文稿 | 可选 |
+| **qmd** | Wiki 页面搜索引擎（BM25 + 向量混合检索） | 大规模时需要 |
+
+### Obsidian 推荐设置
+
+- **附件目录**：Settings → Files and links → Attachment folder path → 设为 `raw/assets/`
+- **下载附件快捷键**：Settings → Hotkeys → 搜索 "Download" → 绑定 `Ctrl+Shift+D`
+- **图谱视图**：查看 Wiki 结构——哪些是枢纽页、哪些是孤立页
+
+---
+
+## 适用场景
+
+- **个人成长** — 追踪目标、健康、心理、自我提升
+- **研究** — 深入某个主题，持续数周/月，逐步构建全面 Wiki
+- **读书** — 按章节记录，构建人物、主题、情节线索页
+- **商业/团队** — 从 Slack、会议、项目文档中维护内部 Wiki
+- **竞品分析、尽职调查、旅行规划、课程笔记** — 任何需要长期积累的场景
+
+---
+
+## 备份与恢复
+
+### 备份到 GitHub
+
+```
+把当前项目推送到 GitHub
+```
+
+### 从 GitHub 恢复
+
+```bash
+git clone https://github.com/你的用户名/llm-wiki.git
+# 恢复 Skill 到 Claude Code
+mkdir -p ~/.claude/skills/llm-wiki
+cp skill/SKILL.md ~/.claude/skills/llm-wiki/SKILL.md
+```
+
+### 同步到飞书知识库
+
+```
+把 Wiki 内容同步到飞书知识库
+```
+
+Claude 会调用飞书 API 创建文档并组织为知识库树状结构。
+
+---
+
+## 核心理念
+
+> 维护知识库的繁重工作不是阅读和思考，而是记账——更新交叉引用、保持摘要最新、标注矛盾、维护一致性。人类因维护负担增长快于价值而放弃 Wiki。LLM 不会厌倦，不会忘记更新引用，一次操作可以触及 15 个文件。维护成本趋近于零，Wiki 就能持续运转。
+
+**人类的工作**：策划资料来源、引导分析方向、提出好问题、思考意义。
+
+**LLM 的工作**：总结、交叉引用、归档、记账——其余一切。
+
+- 如果需要了解，共创，学习相关亚马逊运营Skill，请添加我们公众号和相关联系方式，进行分享相关亚马逊相关运营Skill源文件
+![9f453825a605ac5a92149be126636dc4](https://github.com/user-attachments/assets/9680fd49-0f0f-4642-8601-462ca28f1c77)
+![8acbe748b4a2e09b088c6e2b5cdfa85e](https://github.com/user-attachments/assets/86f00f61-cac6-4da1-9b4d-e78f75aecbc8)
+---<img width="844" height="376" alt="image" src="https://github.com/user-attachments/assets/0c809a29-8dad-4fd0-b5ce-d439e250a60a" />
+
+
+
+## Related Pages
+
+- [[Claude Code整理Obsidian筆記！Karpathy公開LLM知識庫系統，貼一段指令就能建起來]]
+- [[AI大神教你改善工作流，用「LLM Wiki」打造知識複利｜天下雜誌]]
+- [[Karpathy LLM Wiki 知識系統實踐：基礎安裝與建置篇 | Kenmingの鮮思維]]
+- [[LLM Wiki]]
+- [[5個寫會議記錄Meeting minutes貼士（附範例）]]
+- [[專案經理 PM 的 AI 實戰指南：PRD、風險分析、會議管理全攻略 | Mason AI Lab]]
+- [[整理會議紀錄超痛苦？5招NotebookLM「AI筆記轉化術」，中英夾雜、專有名詞也能精準轉譯]]
+- [[會議記錄怎麼做？會議記錄完全指南：從入門到精通的實用技巧與範本]]
+- [[天文學家發現宇宙最蓬鬆行星 堪比棉花糖 | 太陽系外天體 | 木星 | 行星演化 | 新唐人电视台]]
+- [[AI 會議紀錄 & 文書處理：會議摘要、公文撰寫、SOP 自動化 | Mason AI Lab]]
+- [[告別會議筆記困境！【Google NotebookLM 高效會議記錄完全指南】AI協作 + 雅婷逐字稿實戰教學，讓你的筆記精準又省力！]]
+- [[「取消 PM」是個餿主意！當實作不再昂貴，PM 該如何練就挑選的品味？|經理人]]
+- [[【CC字幕 】【AI 工作流】開會還在手打紀錄？工程師的「零手打」會議系統：iPhone + NotebookLM 實戰（附 SOP）]]
+- [[開會總是沒效率？讓主管愛上你的10個高效會議技巧]]
+- [[Gemini教學｜AI自動生成會議紀錄，比手寫快100倍的高效筆記法-職場AI培訓 客服中心委外&服務外包-程曦資訊]]
+- [[開會的能力決定你職位的高低]]
+- [[未來 2 年，一半的PM 將被淘汰？寓意科技執行長：比寫 PRD 更值錢的是「場景想像力」|經理人]]
+- [[會議記錄與摘要 - ClaudeWorld]]
+- [[展望2025｜AI引領專案 管理者創造職場新高峰 | 專案經理雜誌]]
+- [[專案經理人與AI共舞的數位轉型生存指南 | 專案經理雜誌]]
+- [[讓領導有節奏！用 Scrum 改變行銷團隊的協作節奏 | 專案經理雜誌]]
+- [[如何讓會議開的更有效率？ | 專案經理雜誌]]
+- [[一鍵生成會議記錄、週報與追蹤計畫：PM 的超強效率活絡加倍術！ - TechLines 科技線]]
+- [[用會議記錄從菜鳥變成局內人｜PM 筆記]]
+- [[如何有效率開會]]
+- [[如何做會議紀錄？2026 新手也能快速上手的會議記錄完整指南 - 元筆記]]
+- [[【會議記錄，不只是紀錄 —重現會議現場的魔法】]]
+- [[每天開會開到心累？新手PM必學的高效率會議方法]]
+- [[職場筆記、會議記錄、反省日記如何避免寫過就忘？ - 專案管理生活思維]]
+- [[PM必學！Google AI NotebookLM保姆級教學：會議紀錄、週報、培訓3大場景全自動化！高手都在用這招！（附完整Prompt）]]
+- [[PMP專案管理實務教材（長宏）]]
+- [[《超級專案管理》讀後心得：看懂專案三個失敗與成功的關鍵]]
+- [[【專案管理書摘】關於利害關係人管理-集體開會，只會讓你的產品走向平庸 - 專案管理生活思維]]
+- [[專案管理為什麼？14 個專案新手的常見問題]]
+- [[這些10個問題專案管理員需要在開始新的專案之前提問]]
+- [[新手專案管理必修課：定義問題與流程技巧完全拆解]]
+- [[專案規劃-六大致命問題與解法 - ProjectClub 專案管理輕鬆學 – 職場菁英培育基地]]
+- [[第12章_專案溝通管理]]
+- [[12 個專案經理面試問題以及如何回答 - Soft & Share]]
+- [[天下雜誌出版 - 專案為何這麼難管？破解三大痛點，讓你的專案高效完成，精準達標！]]
+- [[專案問題多又多，範疇過大、規格不清怎麼辦？ - 專案管理生活思維]]
+- [[專案經理6種常見專案管理文件，專案計畫書、工作時程表、需求規... - 專案人力資源管理學習｜104學習]]
+- [[Homebrew (macOS)]]
+- [[中醫醫理與道家易經]]
+- [[孫子兵法]]
+- [[戰國日本]]
+- [[戰國日本Ⅱ─敗者的美學]]
+- [[諸葛孔明]]
+- [[品三國]]
+- [[三國史話]]
+- [[輝達市值上10兆？ChatGPT預測「這時」達成]]
+- [[Zenkit Projects Tips l 六個最常見的專案管理問題]]
+- [[專案管理是什麼？一文掌握專案管理五大流程＆高效專案管理工具！]]
+- [[什麼是專案管理？其優勢是什麼？ [2025] • Asana]]
+- [[Google知識圖譜 - 維基百科，自由的百科全書]]
+- [[awesome-knowledge-graph]]
+- [[什麼是知識圖譜？AI 能不能進工廠的關鍵 | 製造新觀點]]
+- [[【知识图谱】深入浅出讲解知识图谱（技术、构建、应用）]]
+- [[知識圖譜（Knowledge Graph）的定義為何？ - OOSGA]]
+- [[知識圖譜：讓 AI 理解事物之間的關係]]
+- [[知識圖譜概論(下)]]
+- [[知識圖譜分析方法論 - Uedu 優學院]]
+- [[新手 PM 懶人包｜專案經理（Project Manager）在做什麼？要考證照嗎？7 大 PM 問題幫你解！ - 專案管理生活思維]]
+- [[為何需要專案管理？]]
+- [[專案管理 - 維基百科，自由的百科全書]]
+- [[專案管理｜怎麼規劃管理專案？圖解專案管理５步驟與工具|經理人]]
+- [[知識圖譜 (Knowledge Graph, KG)]]
+- [[企業知識圖]]
+- [[AI知识图谱 GraphRAG 是怎么回事？]]
+- [[長文本為什麼容易漏掉中段？GraphRAG、知識圖譜與長文本處理 | iPAS AI 應用規劃師中級 L21103]]
+- [[中華電信研究院｜科技新知]]
+- [[知識圖譜概論(上)]]
+- [[用AI生成器解鎖知識圖譜（Knowledge Graphs），輕鬆搭建知識體系！]]
+- [[知識圖譜 - 維基百科，自由的百科全書]]
+- [[World Monitor — By the time it's news, you already knew.]]
+- [[三小時吃透《易經》：從職場困境到人生破局的底層邏輯全揭秘]]
+- [[代码搜索省92% Token？拆解 Headroom 的上下文优化真相]]
+- [[零成本无限 Token！Hermes + Qwen3.6，本地最强 Agent 组合来了！附部署教程 | 零度解说]]
+- [[🚀 API Mega List]]
+- [[Fractal — the recursive language model CLI agent]]
+- [[Hermes Agent 新增 /learn 指令：讓任何資料都能變成可重複使用的 AI 技能 - 電腦王阿達]]
+- [[MCP Servers]]
+- [[精選的 MCP 伺服器 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)]]
+- [[不得不裝的 AI 代理工具｜GitHub 萬星項目｜OPENCODE]]
+- [[少子化時代：台灣缺的到底是人口，還是制度升級?]]
+- [[「沒錢、沒資源、沒人脈，你要憑什麼贏？｜孫子兵法以少勝多九大心法｜越級打怪的底層邏輯｜孫武、老子、孔子同時告訴你｜孫子說」]]
+- [[為什麼PDF還是這麼難用？其實是故意的]]
+- [[Karpathy_LLM_Wiki_是什麼一個卡片盒筆記法使用者的實測_WenHao_Yu]]
+- [[Karpathy_的_LLM_Wiki_缺少了什麼以及如何修正]]
+- [[llm_wiki]]
+- [[LLM_Wiki_是什麼OpenAI_創始成員提出的_AI_知識庫玩法讓_LLM_幫你打造第二大腦]]
+- [[安全验证_知乎]]
+- [[Karpathy_LLM_Wiki_知識系統實踐解析核心理念_Kenmingの鮮思維]]
+- [[LLM_Wiki_實戰我們怎麼把部落格變成一座知識庫_News]]
+- [[LLM_Knowledge_Base_用_LLM_編譯個人知識庫各路實作全比較]]
+- [[Andrej_Karpathy完整LLM_wiki_建構提示詞_基於ObsidianAI_Agent的個人知識庫完整建構]]
+- [[Why_LLM_Wiki_Future_Of_Knowledge_For_Agentic_AI_Humans]]
+- [[EP_80LLM_Wiki讓_AI_把資料變成第二顆大腦]]
+- [[Llm_Wiki_Karpathys_LLM_Wiki_buildquery_interlinked_markdown]]
+- [[Karpathy_的新工作流用_LLM_把原始資料編譯成私人_wiki]]
+- [[Building_an_LLM_Research_Wiki_How_I_Turned_3000_Pages_of_Phi]]
+- [[專案管理實務上]]
