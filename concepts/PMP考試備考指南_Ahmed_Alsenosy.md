@@ -2,8 +2,8 @@
 title: PMP考試備考指南（Ahmed Alsenosy）
 type: research
 created: 2026-06-30T11:33
-updated: 2026-06-30T11:33
-tags: [English, 研究, research, analysis]
+updated: 2026-07-02T16:59
+tags: [English, 研究, research, analysis, PMP, 项目管理, 项目管理专业, 项目管理认证, 项目管理书籍, 项目管理培训]
 confidence: medium
 ---
 
@@ -1243,11 +1243,3 @@ UHVXOWVWRWKHQH[WSKDVHRUWRSURGXFWLRQDQGRURSHUDWLRQV
 • &ROOHFWLQJDQ\VXJJHVWLRQVIRULPSURYLQJRUXSGDWLQJWKHSROLFLHVDQGSURFHGXUHV
 RIWKHRUJDQL]DWLRQDQGVHQGLQJWKHPWRWKHDSSURSULDWHRUJDQL]DWLRQDOXQLW
 • 0HDVXULQJVWDNHKROGHUVDWLVIDFWLRQ
-
-
-## Related Pages
-
-- [[PG8_Errata_Second_Printing]]
-- [[專案管理實務上]]
-- [[4D6963726F736F667420576F7264202D20B5B5B74CA4E6BCC6BDD7A952A7DEA5A9A4CEB9EAA8D2B8]]
-- [[天文面面觀是國際天文學聯合會天文學教育項目]]

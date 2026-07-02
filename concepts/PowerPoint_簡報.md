@@ -2,8 +2,8 @@
 title: PowerPoint_簡報
 type: business
 created: 2026-06-30T22:02
-updated: 2026-06-30T22:02
-tags: [中文, English, 商業, business, strategy]
+updated: 2026-07-02T16:42
+tags: [中文, English, 商業, business, strategy, 專案管理, 專案五大程序, 專案管理知識領域, 專案管理流程群組, 專案管理計畫書, 專案執行]
 confidence: high
 ---
 
@@ -509,17 +509,14 @@ V
 
 本單元課程講解結束 
 本單元課程講解結束 
-謝謝大家觀賞聆聽 
-  
-
+謝謝大家觀賞聆聽
 
 ## Related Pages
 
-- [[資訊化與資訊規劃概說]]
+- [[《超級專案管理》讀後心得：看懂專案三個失敗與成功的關鍵]]
+- [[專案管理概論 (第一章)]]
+- [[專案係指為創造或執行獨一無二的產品服務或產物所從事]]
+- [[專案管理流程]]
 - [[2_確保所有活動在執行上都能協調]]
-- [[Microsoft_Word_AEE0398_CH03okkdoc]]
-- [[슬라이드_1]]
-- [[Microsoft_Word_01114壹第1章doc]]
-- [[PMP專案管理實務教材（長宏）]]
-- [[Microsoft_PowerPoint_軟體專案管理2012]]
-- [[帝星動則列宿奔馳貪守空而財源不聚]]
+- [[專案經理核心能力與職責]]
+- [[專案進度管理包含哪些內容？一文了解PMP專案經理必備技能 - ProcessOn]]

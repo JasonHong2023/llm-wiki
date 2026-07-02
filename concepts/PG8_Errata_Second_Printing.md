@@ -2,8 +2,8 @@
 title: PG8_Errata_Second_Printing
 type: research
 created: 2026-06-30T11:08
-updated: 2026-06-30T11:08
-tags: [English, 研究, research, analysis]
+updated: 2026-07-02T16:59
+tags: [English, 研究, research, analysis, 項目管理, 風險管理, 範圍管理, 需求管理, 項目計畫, 項目管理知識體系]
 confidence: medium
 ---
 
@@ -331,12 +331,4 @@ industrial, and public services projects to seek external sources of funds. If a
 externally, the funding entity may have certain requirements that must be met.
 Flowchart. Flowcharts are visual representations that map out the sequence of steps and branching 
 possibilities within a process. They are also known as process maps and are used to transform one 
-or more inputs into one or more outputs. Flowcharts are instrumental in illustrating the activities, 
-
-
-## Related Pages
-
-- [[68299361]]
-- [[專案管理實務上]]
-- [[4D6963726F736F667420576F7264202D20B5B5B74CA4E6BCC6BDD7A952A7DEA5A9A4CEB9EAA8D2B8]]
-- [[天文面面觀是國際天文學聯合會天文學教育項目]]
+or more inputs into one or more outputs. Flowcharts are instrumental in illustrating the activities,

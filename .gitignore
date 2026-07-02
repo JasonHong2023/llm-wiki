@@ -9,3 +9,7 @@ Thumbs.db
 # Temp
 *.tmp
 *.swp
+
+# Lint 健康檢查報告、待審核佇列（產生物，不需要版本控制）
+.lint_reports/
+.pending_updates.jsonl
