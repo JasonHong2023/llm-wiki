@@ -46,3 +46,4 @@ In traditional RAG, we first split the article into chunks of text. Then, we con
 
 - [[Claude Code整理Obsidian筆記！Karpathy公開LLM知識庫系統，貼一段指令就能建起來]]
 - [[awesome-knowledge-graph]]
+- [[紫微諭德]]

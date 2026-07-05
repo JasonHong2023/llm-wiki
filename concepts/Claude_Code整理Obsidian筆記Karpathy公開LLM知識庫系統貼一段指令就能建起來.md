@@ -158,3 +158,4 @@ LLM 知識庫把這個成本轉移給 AI：人負責找素材、定方向、問�
 
 - [[awesome-knowledge-graph]]
 - [[AI知识图谱 GraphRAG 是怎么回事？]]
+- [[紫微諭德]]

@@ -2,29 +2,29 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 117
+    count: 139
     first_seen: '2026-06-27'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-04'
   - name: 中文
-    count: 123
+    count: 144
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: English
-    count: 129
+    count: 151
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: 技術
-    count: 118
+    count: 141
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: programming
-    count: 118
+    count: 140
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: development
-    count: 114
+    count: 136
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: Python
     count: 4
     first_seen: '2026-06-27'
@@ -55,13 +55,13 @@ categories:
     first_seen: '2026-06-27'
     last_updated: '2026-06-30'
   - name: API
-    count: 16
+    count: 19
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: REST
-    count: 16
+    count: 19
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
   - name: Docker
     count: 1
     first_seen: '2026-06-27'
@@ -73,9 +73,9 @@ categories:
 - name: 程式語言
   tags:
   - name: JavaScript
-    count: 2
+    count: 3
     first_seen: '2026-06-28'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-04'
 - name: 主題
   tags:
   - name: frontend
@@ -83,9 +83,9 @@ categories:
     first_seen: '2026-06-28'
     last_updated: '2026-06-30'
   - name: 資料庫
-    count: 4
+    count: 5
     first_seen: '2026-06-28'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-03'
   - name: 研究
     count: 5
     first_seen: '2026-06-30'
@@ -113,37 +113,37 @@ categories:
     related:
     - 非同步
   - name: 會議技巧
-    count: 8
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 會議管理
     count: 27
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 時間管理
-    count: 18
+    count: 19
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 團隊協作
-    count: 20
+    count: 21
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 領導力
-    count: 22
+    count: 24
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 會議規劃
-    count: 4
+    count: 5
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 會議跟進
     count: 4
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 商業管理
-    count: 5
+    count: 6
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 知乎
     count: 2
     first_seen: '2026-06-30'
@@ -185,9 +185,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: AI Agent
-    count: 4
+    count: 5
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 個人知識庫
     count: 6
     first_seen: '2026-06-30'
@@ -201,33 +201,33 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-06-30'
   - name: 紫微斗數
-    count: 4
-    first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
-  - name: 中國命理
-    count: 6
-    first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
-  - name: 占星術
     count: 5
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
+  - name: 中國命理
+    count: 9
+    first_seen: '2026-06-30'
+    last_updated: '2026-07-03'
+  - name: 占星術
+    count: 6
+    first_seen: '2026-06-30'
+    last_updated: '2026-07-03'
   - name: 星命學
-    count: 3
+    count: 5
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 古籍
-    count: 4
+    count: 6
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 星盤
     count: 1
     first_seen: '2026-06-30'
     last_updated: '2026-06-30'
   - name: 命理學
-    count: 3
+    count: 5
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 星垣
     count: 1
     first_seen: '2026-06-30'
@@ -261,9 +261,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 企業知識管理
-    count: 5
+    count: 6
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: Graph RAG
     count: 4
     first_seen: '2026-07-02'
@@ -281,9 +281,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 數位轉型
-    count: 4
+    count: 5
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 創新案例
     count: 1
     first_seen: '2026-07-02'
@@ -313,9 +313,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 古生物學
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 科學發現
     count: 1
     first_seen: '2026-07-02'
@@ -349,9 +349,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 網路安全
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 資料保護
     count: 1
     first_seen: '2026-07-02'
@@ -473,9 +473,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 人工智慧
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 軍事戰略
     count: 4
     first_seen: '2026-07-02'
@@ -521,13 +521,13 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 系外行星
-    count: 1
+    count: 4
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 天文學
-    count: 3
+    count: 5
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 氣巨行星
     count: 1
     first_seen: '2026-07-02'
@@ -589,13 +589,13 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 銀河系
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 太陽系
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 恆星
     count: 1
     first_seen: '2026-07-02'
@@ -1181,9 +1181,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 道家
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 中醫醫理
     count: 1
     first_seen: '2026-07-02'
@@ -1277,9 +1277,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 三國
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 歷史
     count: 2
     first_seen: '2026-07-02'
@@ -1537,9 +1537,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: AI應用
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-03'
   - name: 地理信息
     count: 1
     first_seen: '2026-07-02'
@@ -1584,12 +1584,388 @@ categories:
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
+  - name: Meta
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 祖克伯
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 組織重整
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 雲端基礎設施
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: TESS 衛星
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 微重力透鏡
+    count: 2
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 凌日法
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: mRNA
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 蛋白質
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 分子生物學
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 基因表現
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 細胞生物學
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 生物化學
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 火星
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 地震
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 岩漿系統
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 板塊構造
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 行星地殼
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 宜居性
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 銀河系核心
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 歐幾里得望遠鏡
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 銀河核球
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 晨星
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 紅矮星
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 適居帶
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 生命跡象
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: OpenAI
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: ChatGPT
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 私募股權
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 鬼谷子
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 人際關係
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 職場發展
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 自我提升
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 人性心理
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 六祖壇經
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 佛教典籍
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 禪宗
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 中國古籍
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 佛教哲學
+    count: 2
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 精神成長
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 明朝
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 唐朝
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 宋朝
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 清朝
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 太平天國
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 呂捷聊三國
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 大漢帝國
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 歷史科普
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 台灣史
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 科普歷史
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 中國人
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 生存聖經
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 智囊
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 馮夢龍
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 博弈技巧
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 生存底層邏輯
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 陰符經
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 張良
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 范蠡
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 生存智慧
+    count: 2
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 榮格
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 唐代秘典
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 元神
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 識神
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 心理學
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 大乘佛教
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 法華經
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 佛陀
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 佛教經典
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 佛教思想
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 奇門遁甲
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 姜子牙
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 諸葛亮
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 電子書
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 免費分享
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 量化論命
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 思想家
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: Hermes
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: Petdex
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 数字宠物
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 终端
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 动画状态
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: 渲染模式
+    count: 1
+    first_seen: '2026-07-03'
+    last_updated: '2026-07-03'
+  - name: NoteOS
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: AI語音筆記
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: 任務習慣追蹤
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: iPhone生產力工具
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: 語音筆記
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: AI摘要
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: Zero Trust Mesh
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: HTTP/2
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: PipyJS
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: TLS
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
+  - name: 網絡安全
+    count: 1
+    first_seen: '2026-07-04'
+    last_updated: '2026-07-04'
 - name: 技術
   tags:
   - name: database
-    count: 4
+    count: 5
     first_seen: '2026-06-28'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-03'
 - name: 概念
   tags:
   - name: strategy
@@ -1631,5 +2007,5 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
 metadata:
-  last_updated: '2026-07-02'
+  last_updated: '2026-07-04'
   version: '1.0'

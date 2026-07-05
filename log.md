@@ -297,3 +297,29 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-02T19:35 | maintenance | Related Pages 區塊重新生成 | 影響頁面=127（原本平均 84.8 條、最多 110 條無關連結）；改用修好的 _GENERIC_TAGS 過濾邏輯重跑 _find_related_pages（max_n=8）；146 篇檔案變更，新平均連結數=5.7、最多 8 條；55 篇因標籤重疊不足 2 個而移除舊的失真區塊 |
 | 2026-07-02T23:26 | lint | wiki 健康檢查 | 孤兒頁=74; 缺標籤=0; 冷門標籤=308; 過時query=0 |
 | 2026-07-02T23:27 | lint_duplicates | wiki 重複內容偵測 | 分析群組=5; 略過群組=0; 疑似重複組=0 |
+| 2026-07-03T09:58 | ingest | 祖克伯Meta_AI代理發展不如預期_重組時機判斷有誤.md | Imported via browser extension from https://www.ctee.com.tw/news/20260703700380-430704; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T09:59 | ingest | TESS_衛星首透過微透鏡效應發現系外行星證實能探測遠軌道星球.md | Imported via browser extension from https://technews.tw/2026/07/02/exoplanet-gaia23bra-b-microlensing/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T10:01 | ingest | mRNA_3UTR_新功能幫助蛋白質形成正確構型.md | Imported via browser extension from https://technews.tw/2026/07/03/3utrs-help-proteins-fold-into-the-correct-structure/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T10:02 | ingest | 火星在沒有板塊構造的情況下維持了數十億年類似地球的山火岩漿系統.md | Imported via browser extension from https://zh-hant.martincid.com/science-zh-hant/mars-transcrustal-magmatism-earth-like-magma-billions-years/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T10:04 | ingest | 當6000萬顆恆星盡收眼底讀懂神寫給全人類的星空情書.md | Imported via browser extension from https://cdn-news.org/News.aspx?EntityID=News&PK=00000000a48a9d628208f0e10102254f88c79edf04659d85; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T10:05 | ingest | 距離太陽系僅_25_光年系外行星_GJ_3378b_質量下修為地球_23_倍.md | Imported via browser extension from https://technews.tw/2026/07/02/gj-3378b-exoplanet/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:18 | ingest | 麥肯錫顫抖了OpenAI_親自下場做諮詢私募大佬竟成最強推手.md | Imported via browser extension from https://www.youtube.com/watch?v=EIw58lbV1M0; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:24 | lint | wiki 健康檢查 | 孤兒頁=77; 缺標籤=0; 冷門標籤=331; 過時query=0 |
+| 2026-07-03T16:25 | lint_duplicates | wiki 重複內容偵測 | 分析群組=5; 略過群組=0; 疑似重複組=0 |
+| 2026-07-03T16:26 | ingest | 葬書不是迷信古代頂級家族的傳承密碼30分鐘徹底讀懂.md | Imported via browser extension from https://www.youtube.com/watch?v=8_vb0VJeTwM; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:27 | ingest | 50分鐘吃透鬼谷子從職場失意到人生掌控者的逆襲密碼.md | Imported via browser extension from https://www.youtube.com/watch?v=mMAJxG4ZQzI; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:27 | ingest | 30分鐘讀懂六祖壇經為什麼你越努力越空虛答案藏在這5句話裡.md | Imported via browser extension from https://www.youtube.com/watch?v=_n6kWL6Z-Wo; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:28 | ingest | 諸葛亮爲何五次北伐曹魏失敗原因竟全在出師表中也許我們從未讀懂這千古第一忠文.md | Imported via browser extension from https://www.youtube.com/watch?v=494bwGGscDo; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T16:29 | ingest | 大漢帝國是如何一步步把自己玩壞最後走向三國_呂捷聊三國精華合輯.md | Imported via browser extension from https://www.youtube.com/watch?v=vyDMsLgXYQo; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T20:29 | ingest | 讀懂智囊你就能在危機裡全身而退30分鐘吃透中國人藏了400年的生存聖經.md | Imported via browser extension from https://www.youtube.com/watch?v=3kSLUg-zyUA; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T20:32 | ingest | 陰符經400字藏著張良范蠡的頂級生存智慧.md | Imported via browser extension from https://www.youtube.com/watch?v=7A7EGyxqLik; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T20:33 | ingest | 榮格震驚到寫評註的唐代秘典30分鐘看懂你的元神與識神.md | Imported via browser extension from https://www.youtube.com/watch?v=6v0oyR9DTG4; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T21:21 | ingest | 10分鐘悟透_法華經大乘佛教最圓滿的經典被譽為經中之王佛陀在此經中揭示了最終的真相一切眾生皆可成佛三乘歸一唯有一佛乘.md | Imported via browser extension from https://www.youtube.com/watch?v=8dK4aztY5_8; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T21:22 | ingest | 30分鐘讀懂奇門遁甲姜子牙諸葛亮靠它逆轉人生這才是真正的生存智慧.md | Imported via browser extension from https://www.youtube.com/watch?v=RLUwVOKNf70; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T21:43 | create | 紫微諭德.md | type=auto; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T21:50 | ingest | 兩千年前的尉繚子竟把現代職場商戰說透了30分鐘拆解核心邏輯.md | Imported via browser extension from https://www.youtube.com/watch?v=SohCxmCnOog; tags=Markdown,中文,English,技術,programming |
+| 2026-07-03T22:50 | ingest | Hermes_真官方宠物系统完全指南3248_只数字萌宠静静陪伴你.md | Imported via browser extension from https://zhuanlan.zhihu.com/p/2053527550815740368; tags=Markdown,中文,English,技術,programming |
+| 2026-07-04T07:53 | ingest | NoteOS限免終身版領取支援Gemini的AI語音筆記與任務習慣追蹤_瘋先生.md | Imported via browser extension from https://mrmad.com.tw/noteos-free-lifetime-deal; tags=Markdown,中文,English,技術,programming |
+| 2026-07-04T08:54 | ingest | flomesh_ioztm_ZTM_Zero_Trust_Mesh_is_a_privacy_first_open_so.md | Imported via browser extension from https://github.com/flomesh-io/ztm; tags=Markdown,English,技術,programming,development |
+| 2026-07-04T08:56 | lint | wiki 健康檢查 | 孤兒頁=81; 缺標籤=0; 冷門標籤=391; 過時query=0 |
+| 2026-07-04T08:57 | lint_duplicates | wiki 重複內容偵測 | 分析群組=5; 略過群組=0; 疑似重複組=0 |

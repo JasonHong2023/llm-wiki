@@ -455,3 +455,4 @@ OAG（Open Academic Graph包含来自MAG的166,192,182篇论文和来自AMiner�
 
 - [[Claude Code整理Obsidian筆記！Karpathy公開LLM知識庫系統，貼一段指令就能建起來]]
 - [[AI知识图谱 GraphRAG 是怎么回事？]]
+- [[紫微諭德]]
