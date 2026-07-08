@@ -246,3 +246,5 @@ Obsidian的 [[wiki link]] 會建立筆記之間的關係，Claude可以沿著這
 - [[中華電信研究院｜科技新知]]
 - [[知識圖譜與語義搜尋技術指南 | LargitData]]
 - [[Andrej Karpathy：完整LLM wiki 建構提示詞! 基於Obsidian+AI Agent的個人知識庫完整建構指南 | 科技 | 鉅亨號 | Anue鉅亨]]
+- [[How_to_Convert_Any_Text_Into_a_Graph_of_Concepts]]
+- [[諸子集成第六冊孫子十家注吳子尹文子呂氏春秋]]

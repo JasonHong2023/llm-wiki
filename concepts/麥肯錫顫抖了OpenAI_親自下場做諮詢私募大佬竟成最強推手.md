@@ -57,3 +57,5 @@ Openai这条ADVN短片 真正刺眼的不是Codex写 了一个合同管理系统
 - [[讀懂智囊你就能在危機裡全身而退30分鐘吃透中國人藏了400年的生存聖經]]
 - [[陰符經400字藏著張良范蠡的頂級生存智慧]]
 - [[榮格震驚到寫評註的唐代秘典30分鐘看懂你的元神與識神]]
+- [[anthropicsfinancial_services]]
+- [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]

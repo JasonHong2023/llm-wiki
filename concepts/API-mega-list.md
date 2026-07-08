@@ -26356,3 +26356,4 @@ This collection contains **10,498 ready-to-use APIs** that you can integrate dir
 
 - [[LLM Wiki]]
 - [[Karpathy 的 LLM Wiki 缺少了什麼（以及如何修正）]]
+- [[2026_OpenCode_教程完整安裝設定與配置指南_NxCode]]

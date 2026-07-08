@@ -323,3 +323,59 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-04T08:54 | ingest | flomesh_ioztm_ZTM_Zero_Trust_Mesh_is_a_privacy_first_open_so.md | Imported via browser extension from https://github.com/flomesh-io/ztm; tags=Markdown,English,技術,programming,development |
 | 2026-07-04T08:56 | lint | wiki 健康檢查 | 孤兒頁=81; 缺標籤=0; 冷門標籤=391; 過時query=0 |
 | 2026-07-04T08:57 | lint_duplicates | wiki 重複內容偵測 | 分析群組=5; 略過群組=0; 疑似重複組=0 |
+| 2026-07-05T21:33 | ingest | anthropicsfinancial_services.md | Imported via browser extension from https://github.com/anthropics/financial-services; tags=Markdown,English,技術,programming,development |
+| 2026-07-06T12:44 | create | 738828919_1038877215766839_8323289220064536973_n.jpeg | type=auto; tags=Markdown,中文,English,技術,programming |
+| 2026-07-06T13:32 | ingest | How_to_Convert_Any_Text_Into_a_Graph_of_Concepts.md | Imported via browser extension from https://medium.com/data-science/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a; tags=TypeScript,typed,web,Markdown,English |
+| 2026-07-06T13:34 | ingest | rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl.md | Imported via browser extension from https://github.com/rahulnyk/knowledge_graph; tags=Markdown,English,技術,programming,development |
+| 2026-07-07T09:27 | create | 作戰篇_第二.md | type=auto; tags=中文,研究,research,analysis,孫子兵法 |
+| 2026-07-07T09:29 | lint | wiki 健康檢查 | 孤兒頁=83; 缺標籤=0; 冷門標籤=398; 過時query=0 |
+| 2026-07-07T09:30 | lint_duplicates | wiki 重複內容偵測 | 分析群組=6; 略過群組=0; 疑似重複組=1 |
+| 2026-07-07T09:42 | create | 厚黑學李宗吾.md | type=auto; tags=中文,English,研究,research,analysis |
+| 2026-07-07T09:58 | create | 諸子集成第六冊孫子十家注吳子尹文子呂氏春秋.md | Uploaded from NLC511-023031404018329-26668_諸子集成（第六冊）孫子十家注_吳子_尹文子_呂氏春秋 (1).pdf; tags=English,技術,programming,development,知識圖譜 |
+| 2026-07-07T15:02 | create | 力就包圍敵人也就是說兩軍交戰兵力多寡是決定勝負最主要.md | Uploaded from 1-分合之變孫子兵法.pdf; tags=中文,English,研究,research,analysis |
+| 2026-07-07T16:48 | ingest | 如何加強專案管理了解管理關鍵3大指標.md | Imported via browser extension from https://www.digiwin.com.tw/blog/10/index/3276.html; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:01 | rename | 分合之變孫子兵法十則圍之之解析.md | 從 力就包圍敵人也就是說兩軍交戰兵力多寡是決定勝負最主要 改名，修正誤抓內文為標題 |
+| 2026-07-07T17:05 | rename | 厚黑學李宗吾.md | 從 即使本身有出众的才臹也会淹没在芸芸众生里面这是非常可惜的 改名，檔名補齊為與 frontmatter title 一致（原標題已正確但檔名未同步） |
+| 2026-07-07T17:05 | rename | 諸子集成第六冊孫子十家注吳子尹文子呂氏春秋.md | 從 The_user_provided_a_prompt_根據以下文件內容給出一個簡短具體的繁體中文標題820字只輸 改名，該檔名為 LLM 標題生成時洩漏 prompt 文字所致 |
+| 2026-07-07T17:13 | create | 專案政府監管部門等.md | Uploaded from 1.0第1章專案管理概要.pdf; tags=中文,English,商業,business,strategy |
+| 2026-07-07T17:18 | ingest | 學專案管理必讀之書看懂三個失敗與成功的關鍵超級專案管理.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/1kog00uWc88 |
+| 2026-07-07T17:26 | ingest | 什麼是專案管理Project_Management_PM_桂源科技_udn部落格.md | Imported from https://blog.udn.com/42693237/181400622; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:30 | ingest | 掌握十大專案成功的關鍵_ProjectClub_專案管理輕鬆學_職場菁英培育基地.md | Imported from https://projectclub.com.tw/hard-power/gibson_projectmanagement/1844-project-management-10/?srsltid=AfmBOooFc2S7TIikK2W18sd8jbaWKIxXs74hr2pbfMf4VfVHB0feKBqK; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:34 | ingest | 負責跟當責哪裡不同一個故事告訴你為何當責者更有機會被重用.md | Imported from https://www.518.com.tw/article/1445; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:39 | ingest | 專案管理學習筆記01_認識專案以及專案管理.md | Imported from https://vocus.cc/article/69a0f944fd8978000197ba81; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:41 | ingest | 完整解析專案管理掌握５大流程精確達成交付任務.md | Imported from https://www.cheers.com.tw/article/article.action?id=5104591&page=2; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:43 | ingest | 專案管理是什麼一篇看懂入門觀念5大流程到4大工具懶人包_PressPlay_Academy.md | Imported from https://www.pressplay.cc/project/2667A183130728C4AE30928EF3CFF4DD/articles/4540D02C7AF52204C923C095AB58D824?srsltid=AfmBOoqrAG4re6bD5LANAqtmPYRkSjteBpuQTonHoaa8a9PS-o5xVRoh; tags=Markdown,專案管理,流程管理,工具應用,管理知識 |
+| 2026-07-07T17:45 | ingest | 工地人生Project排程小心得.md | Imported from https://engineeringlifetw.com/project/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:46 | ingest | 做好專案管理_成為優秀PM的10大特質_台北就業大補帖.md | Imported from https://okwork.gov.taipei/ESO/content/tw/Article/161117075814/230913084922; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:48 | ingest | 專案管理怎麼做專案管理工具流程相關證照一次掌握.md | Imported from https://digeetalsync.com/blog/project-management/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:49 | ingest | 專案管理是什麼從小明的戀愛故事暸解專案經理PM的工作內容.md | Imported from https://sharing.tcincubator.com/%E5%B0%88%E6%A1%88%E7%AE%A1%E7%90%86%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F%E5%BE%9E%E5%B0%8F%E6%98%8E%E7%9A%84%E6%88%80%E6%84%9B%E6%95%85%E4%BA%8B%E6%9A%B8%E8%A7%A3%E5%B0%88%E6%A1%88%E7%B6%93%E7%90%86p/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:50 | ingest | 職場真心話04專案管理忙什麼你適合當_PM_嗎3_個關鍵核心能力讓你一看秒懂.md | Imported from https://www.linkedin.com/pulse/%E5%B0%88%E6%A1%88%E7%AE%A1%E7%90%86%E5%BF%99%E4%BB%80%E9%BA%BC%E4%BD%A0%E9%81%A9%E5%90%88%E7%95%B6-pm-%E5%97%8E3-%E5%80%8B%E9%97%9C%E9%8D%B5%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B%E8%AE%93%E4%BD%A0%E4%B8%80%E7%9C%8B%E7%A7%92%E6%87%82-hao-yu-tseng-hyg9e/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T17:53 | ingest | 專案整合管理指南_7_步驟流程_2025_Asana.md | Imported from https://asana.com/zh-tw/resources/project-integration-management; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:00 | ingest | PM專案管理的核心職責從接手專案盤點到AI工具的實務運用.md | Imported via browser extension from https://mymkc.com/article/content/25627; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:01 | ingest | 專案管理的五大流程定義與架構.md | Imported via browser extension from https://www.krispmschool.com/blog/pm/pm-principle/pm-five-processes-structure/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:02 | ingest | 接到專案後該做哪些事一次讀懂專案管理5步驟.md | Imported via browser extension from https://www.bnext.com.tw/article/42016/5-steps-teach-project-management; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:03 | ingest | 掌握項目管理計劃從初學者到2025年的專家.md | Imported via browser extension from https://xmind.com/zh-hant/blog/project-management-plan; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:05 | ingest | 職場必備技能6個專案管理技巧提升專案執行力_PressPlay.md | Imported via browser extension from https://www.pressplay.cc/project/2667A183130728C4AE30928EF3CFF4DD/articles/77289E1CDB02B9A7A331FDA494537A40?srsltid=AfmBOop27OAbIWz4PLQyFOEeR0tY3e4ArBxKoaWoogqvToG5v3Cry_32; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:07 | ingest | 8步驟搞懂專案管理導入流程_ProjectClub_專案管理輕鬆學_職場菁英培育基地.md | Imported via browser extension from https://projectclub.com.tw/hard-power/project-at/486-project-deployment/?srsltid=AfmBOopy02VFOg-6LNGAw9PyDgXORNcMwo550p8J3ATTyxD7AgR0RT8r; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:08 | ingest | 什麼是專案管理從規劃到執行你也可以成為頂尖的專案經理_哈佛商業評論_LINE_TODAY.md | Imported via browser extension from https://today.line.me/tw/v3/article/XY3kVlZ; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:09 | ingest | 職場必備技能6個專案管理技巧提升專案執行力_PressPlay_1.md | Imported via browser extension from https://www.pressplay.cc/project/2667A183130728C4AE30928EF3CFF4DD/articles/77289E1CDB02B9A7A331FDA494537A40?srsltid=AfmBOor6wpAjvcaMJ7xiVek8Ipt0NOI8S6LOZr2fG-8VcH7jV6DJkorJ; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:10 | ingest | 讓專案管理變得更輕鬆的12個步驟_ProjectClub_專案管理輕鬆學_職場菁英培育基地.md | Imported via browser extension from https://projectclub.com.tw/hard-power/pm-dictionary/754-12/?srsltid=AfmBOopAu1HmzlK7dtsXXZbTwSb54w2qZyNEpAkE9ApsBolMSXwFQPSI; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:11 | ingest | 專案管理範例7個完成任務的核心步驟含常用文件整理.md | Imported via browser extension from https://dailynotes.live/project-management-example/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:14 | ingest | 專案管理的八大管理理念_專案經理雜誌.md | Imported via browser extension from https://www.pm-mag.net/Article/Article_content.aspx?Tid=725; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:14 | ingest | 入門專案管理前先帶你搞懂專案是什麼_專案管理生活思維.md | Imported via browser extension from https://www.projectup.net/article/view/id/298; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:16 | ingest | 掌握專案管理的未來發展PM請提升十大技能_哈佛商業評論與世界一流管理接軌.md | Imported via browser extension from https://www.hbrtaiwan.com/article/22917/what-the-next-generation-of-project-management-will-look-like; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:17 | ingest | 什麼是_IT_專案管理_2025_Asana.md | Imported via browser extension from https://asana.com/zh-tw/resources/it-project-management; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:18 | ingest | 專案管理是什麼認識專案管理常見模式流程與優點_PressPlay.md | Imported via browser extension from https://www.pressplay.cc/project/2667A183130728C4AE30928EF3CFF4DD/articles/BCC7AEF6A77B063F098CA92D21B59711?srsltid=AfmBOoqLad0eWHvGq7QWyVMYwX9-013ZXjxsSlwP6MlJ4NdL2xuLt5Pl; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:18 | ingest | 專案經理必學五大成功秘訣_ProjectClub_專案管理輕鬆學_職場菁英培育基地.md | Imported via browser extension from https://projectclub.com.tw/hard-power/project-at/533-pm-five-thing/?srsltid=AfmBOopgIAy4-Xbl_0It0X2xjXj9sVKY2sgEc6rN1gMQtXxLlz7S4ssz; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:20 | ingest | EP214_專案管理怎麼學大人的Small_Talk.md | Imported via browser extension from https://www.youtube.com/watch?v=0fJPoBLunpU; tags=Markdown,中文,English,技術,programming |
+| 2026-07-07T18:30 | ingest | 2026_OpenCode_教程完整安裝設定與配置指南_NxCode.md | Imported via browser extension from https://www.nxcode.io/zh-TW/resources/news/opencode-tutorial-2026; tags=Python,非同步,scripting,Markdown,中文 |
+| 2026-07-08T10:56 | create | 奇門遁甲入門基礎秘籍.md | type=auto; tags=中文,English,研究,research,analysis |
+| 2026-07-08T13:35 | ingest | 奇門遁甲是什麼零基礎也能看懂的基本概念與原理_PressPlay.md | Imported via browser extension from https://www.pressplay.cc/project/2667A183130728C4AE30928EF3CFF4DD/articles/0C38D06FE17FC56FB2E02FE9BC28E862?srsltid=AfmBOorQyiW_2AoJYPsTj-P-V349rENA-vyu6M5mKlGHQ7eRfhyS1P9Z; tags=Markdown,中文,English,技術,programming |
+| 2026-07-08T13:35 | auto_update | 奇門遁甲是什麼零基礎也能看懂的基本概念與原理_PressPlay | 補充頁面=concepts/30分鐘讀懂奇門遁甲姜子牙諸葛亮靠它逆轉人生這才是真正的生存智慧 |
+| 2026-07-08T13:35 | ingest | 奇門遁甲_維基百科自由的百科全書.md | Imported via browser extension from https://zh.wikipedia.org/zh-tw/%E5%A5%87%E9%96%80%E9%81%81%E7%94%B2; tags=Markdown,中文,技術,programming,development |
+| 2026-07-08T14:00 | delete | 職場必備技能6個專案管理技巧提升專案執行力_PressPlay_1.md | 同一篇文章被瀏覽器擴充功能匯入兩次（網址僅追蹤參數srsltid不同），刪除重複份，已將其他頁面的相關連結導回原始檔 |
+| 2026-07-08T14:25 | create | LLM_Wiki.md | 合併 llm-wiki.md（Karpathy 原始構想）與 llm_wiki.md（nashsu 具體實作），標題同為「LLM Wiki」造成重複；nashsu README 本身即說明是依 Karpathy 構想實作，內容互補非衝突 |
+| 2026-07-08T14:25 | delete | llm-wiki.md, llm_wiki.md | 內容已併入 LLM_Wiki.md，原有 10 篇頁面的 [[LLM Wiki]] 反向連結經檔名比對規則確認仍指向合併後的新檔 |
+| 2026-07-08T13:59 | ingest | 2025_遊戲化全圖解與超實用技巧分享.md | Imported via browser extension from https://ooopenlab.cc/blog/post/gamify-example; tags=Markdown,中文,English,技術,programming |
+| 2026-07-08T14:01 | ingest | 遊戲化與行為設計創造吸引力的八個核心動力中文字幕.md | Imported via browser extension from https://mastertalks.tw/products/gamification; tags=Markdown,中文,English,技術,programming |
+| 2026-07-08T14:03 | ingest | 人生攻略本_周郁凱教你用遊戲化思維_設計你的成長之路.md | Imported via browser extension from https://class.campus.org.tw/posts/2021010230-3; tags=Markdown,中文,English,技術,programming |

@@ -77,3 +77,6 @@ confidence: high
 - [[知識圖譜概論(下)]]
 - [[AI大神教你改善工作流，用「LLM Wiki」打造知識複利｜天下雜誌]]
 - [[Andrej Karpathy：完整LLM wiki 建構提示詞! 基於Obsidian+AI Agent的個人知識庫完整建構指南 | 科技 | 鉅亨號 | Anue鉅亨]]
+- [[How_to_Convert_Any_Text_Into_a_Graph_of_Concepts]]
+- [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]
+- [[諸子集成第六冊孫子十家注吳子尹文子呂氏春秋]]

@@ -428,3 +428,5 @@ AI 儘管很厲害，但要實現「無字對話」有可能嗎？知識圖譜�
 - [[未來 2 年，一半的PM 將被淘汰？寓意科技執行長：比寫 PRD 更值錢的是「場景想像力」|經理人]]
 - [[專案經理 PM 的 AI 實戰指南：PRD、風險分析、會議管理全攻略 | Mason AI Lab]]
 - [[麥肯錫顫抖了OpenAI_親自下場做諮詢私募大佬竟成最強推手]]
+- [[How_to_Convert_Any_Text_Into_a_Graph_of_Concepts]]
+- [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]

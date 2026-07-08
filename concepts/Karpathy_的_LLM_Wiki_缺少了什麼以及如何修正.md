@@ -195,3 +195,4 @@ Karpathy 的 LLM Wiki 模式奠定了堅實的基礎。類型化的關係、人�
 
 - [[LLM Wiki]]
 - [[🚀 API Mega List]]
+- [[2026_OpenCode_教程完整安裝設定與配置指南_NxCode]]

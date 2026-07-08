@@ -70,3 +70,6 @@ confidence: high
 - [[LLM Wiki]]
 - [[Karpathy LLM Wiki 知識系統實踐：解析核心理念 | Kenmingの鮮思維]]
 - [[LLM Wiki 是什麼？OpenAI 創始成員提出的 AI 知識庫玩法，讓 LLM 幫你打造第二大腦]]
+- [[How_to_Convert_Any_Text_Into_a_Graph_of_Concepts]]
+- [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]
+- [[諸子集成第六冊孫子十家注吳子尹文子呂氏春秋]]

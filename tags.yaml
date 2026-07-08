@@ -2,70 +2,70 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 139
+    count: 180
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: 中文
-    count: 144
+    count: 186
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: English
-    count: 151
+    count: 195
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: 技術
-    count: 141
+    count: 182
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: programming
-    count: 140
+    count: 181
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: development
-    count: 136
+    count: 176
     first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
   - name: Python
-    count: 4
+    count: 5
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
     related:
     - 非同步
   - name: 非同步
-    count: 5
+    count: 6
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
     related:
     - Python
     - async
   - name: scripting
-    count: 4
+    count: 5
     first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
   - name: TypeScript
-    count: 2
+    count: 3
     first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
+    last_updated: '2026-07-06'
   - name: typed
+    count: 3
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-06'
+  - name: web
+    count: 5
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-06'
+  - name: API
+    count: 21
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-07'
+  - name: REST
+    count: 21
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-07'
+  - name: Docker
     count: 2
     first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
-  - name: web
-    count: 4
-    first_seen: '2026-06-27'
-    last_updated: '2026-06-30'
-  - name: API
-    count: 19
-    first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
-  - name: REST
-    count: 19
-    first_seen: '2026-06-27'
-    last_updated: '2026-07-04'
-  - name: Docker
-    count: 1
-    first_seen: '2026-06-27'
-    last_updated: '2026-06-27'
+    last_updated: '2026-07-06'
   - name: container
     count: 1
     first_seen: '2026-06-27'
@@ -83,29 +83,29 @@ categories:
     first_seen: '2026-06-28'
     last_updated: '2026-06-30'
   - name: 資料庫
-    count: 5
+    count: 6
     first_seen: '2026-06-28'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-06'
   - name: 研究
-    count: 5
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-08'
   - name: research
-    count: 5
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-08'
   - name: analysis
-    count: 5
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-08'
   - name: 商業
-    count: 10
+    count: 11
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
   - name: business
-    count: 10
+    count: 11
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
   - name: async
     count: 1
     first_seen: '2026-06-30'
@@ -117,21 +117,21 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-03'
   - name: 會議管理
-    count: 27
+    count: 33
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 時間管理
-    count: 19
+    count: 29
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 團隊協作
-    count: 21
+    count: 30
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 領導力
-    count: 24
+    count: 32
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 會議規劃
     count: 5
     first_seen: '2026-06-30'
@@ -141,9 +141,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 商業管理
-    count: 6
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 知乎
     count: 2
     first_seen: '2026-06-30'
@@ -193,9 +193,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 知識圖譜
-    count: 28
+    count: 31
     first_seen: '2026-06-30'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 版本控制
     count: 1
     first_seen: '2026-06-30'
@@ -205,29 +205,29 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-03'
   - name: 中國命理
-    count: 9
+    count: 10
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-08'
   - name: 占星術
-    count: 6
+    count: 7
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-08'
   - name: 星命學
-    count: 5
-    first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
-  - name: 古籍
     count: 6
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-08'
+  - name: 古籍
+    count: 7
+    first_seen: '2026-06-30'
+    last_updated: '2026-07-08'
   - name: 星盤
     count: 1
     first_seen: '2026-06-30'
     last_updated: '2026-06-30'
   - name: 命理學
-    count: 5
+    count: 6
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-08'
   - name: 星垣
     count: 1
     first_seen: '2026-06-30'
@@ -245,33 +245,33 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 大语言模型
-    count: 1
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
-  - name: 事件知识图谱
     count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
+  - name: 事件知识图谱
+    count: 3
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 知识工程
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 語義搜尋
-    count: 3
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
-  - name: 企業知識管理
-    count: 6
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-03'
-  - name: Graph RAG
-    count: 4
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
-  - name: 知識工程
     count: 5
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-06'
+  - name: 企業知識管理
+    count: 7
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-06'
+  - name: Graph RAG
+    count: 5
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-06'
+  - name: 知識工程
+    count: 8
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 產業趨勢
     count: 1
     first_seen: '2026-07-02'
@@ -281,9 +281,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 數位轉型
-    count: 5
+    count: 6
     first_seen: '2026-07-02'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 創新案例
     count: 1
     first_seen: '2026-07-02'
@@ -345,9 +345,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 風險管理
-    count: 5
+    count: 7
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 網路安全
     count: 2
     first_seen: '2026-07-02'
@@ -445,13 +445,13 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 易經
-    count: 2
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
-  - name: 八卦
     count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-08'
+  - name: 八卦
+    count: 4
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-08'
   - name: 二進位數學
     count: 1
     first_seen: '2026-07-02'
@@ -609,17 +609,17 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案管理
-    count: 52
+    count: 82
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 工作管理
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 企業管理
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 軟體專案管理
     count: 2
     first_seen: '2026-07-02'
@@ -629,9 +629,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案規劃
-    count: 9
+    count: 14
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 軟體成本估計
     count: 1
     first_seen: '2026-07-02'
@@ -641,25 +641,25 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案進度管理
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: PMP
     count: 3
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案經理
-    count: 9
+    count: 16
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案計畫
     count: 3
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案執行
-    count: 6
+    count: 9
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案五大程序
     count: 1
     first_seen: '2026-07-02'
@@ -685,9 +685,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案排程
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案進度控制
     count: 1
     first_seen: '2026-07-02'
@@ -705,9 +705,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案整合管理
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案知識管理
     count: 1
     first_seen: '2026-07-02'
@@ -717,21 +717,21 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案監控
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案控制
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案結案
+    count: 3
+    first_seen: '2026-07-02'
+    last_updated: '2026-07-07'
+  - name: 專案流程
     count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
-  - name: 專案流程
-    count: 1
-    first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案監督與控制
     count: 1
     first_seen: '2026-07-02'
@@ -741,17 +741,17 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: PMBOK
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理流程
-    count: 3
+    count: 7
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理工具
-    count: 3
+    count: 8
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案環境
     count: 1
     first_seen: '2026-07-02'
@@ -785,9 +785,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案生命週期
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理辦公室
     count: 1
     first_seen: '2026-07-02'
@@ -829,9 +829,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案管理軟體
-    count: 2
+    count: 4
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理技術
     count: 1
     first_seen: '2026-07-02'
@@ -1045,13 +1045,13 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案管理師
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理證照
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 项目管理
     count: 1
     first_seen: '2026-07-02'
@@ -1085,9 +1085,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 利害關係人管理
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案溝通管理
     count: 1
     first_seen: '2026-07-02'
@@ -1157,17 +1157,17 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 溝通管理
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 面試問題
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 溝通技巧
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案計畫書
     count: 1
     first_seen: '2026-07-02'
@@ -1197,13 +1197,13 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 孫子兵法
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 兵法
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 孫武
     count: 1
     first_seen: '2026-07-02'
@@ -1321,9 +1321,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案管理模式
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 學習
     count: 1
     first_seen: '2026-07-02'
@@ -1349,9 +1349,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案管理方法
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理優勢
     count: 1
     first_seen: '2026-07-02'
@@ -1449,9 +1449,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 工作分解結構
-    count: 1
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案管理的國際標準和專業認證
     count: 1
     first_seen: '2026-07-02'
@@ -1461,9 +1461,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 專案生命周期
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-07'
   - name: 專案工具
     count: 1
     first_seen: '2026-07-02'
@@ -1697,17 +1697,17 @@ categories:
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: 私募股權
-    count: 1
+    count: 2
     first_seen: '2026-07-03'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-05'
   - name: 鬼谷子
     count: 1
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: 人際關係
-    count: 1
+    count: 2
     first_seen: '2026-07-03'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-07'
   - name: 職場發展
     count: 1
     first_seen: '2026-07-03'
@@ -1865,9 +1865,9 @@ categories:
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: 奇門遁甲
-    count: 1
+    count: 4
     first_seen: '2026-07-03'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-08'
   - name: 姜子牙
     count: 1
     first_seen: '2026-07-03'
@@ -1960,18 +1960,510 @@ categories:
     count: 1
     first_seen: '2026-07-04'
     last_updated: '2026-07-04'
+  - name: 金融服務
+    count: 1
+    first_seen: '2026-07-05'
+    last_updated: '2026-07-05'
+  - name: 投資銀行
+    count: 1
+    first_seen: '2026-07-05'
+    last_updated: '2026-07-05'
+  - name: 股權研究
+    count: 1
+    first_seen: '2026-07-05'
+    last_updated: '2026-07-05'
+  - name: 財富管理
+    count: 1
+    first_seen: '2026-07-05'
+    last_updated: '2026-07-05'
+  - name: Claude Cowork
+    count: 1
+    first_seen: '2026-07-05'
+    last_updated: '2026-07-05'
+  - name: LOOP ENGINEERING
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: prompting
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: loop
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: CLAUD
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: AI articles
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: 知識提取
+    count: 3
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-07'
+  - name: 知識推理
+    count: 2
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-07'
+  - name: Graph Augmented Generation
+    count: 1
+    first_seen: '2026-07-06'
+    last_updated: '2026-07-06'
+  - name: 兵貴勝
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 速戰速決
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 全勝
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 謀略
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 處世
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 厚黑學
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 十則圍之
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 分合之變
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 局部優勢
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 兵學理論
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 戰爭策略
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理三角形
+    count: 2
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 製造業
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: AI助理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案定義
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案特性
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案分類
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案成熟度
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: Project Management
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理角色
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理挑戰
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理應用
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 成本管理
+    count: 4
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 範疇管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 品質管理
+    count: 4
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 職場技巧
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 領導管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 求職攻略
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 勞資法令
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 服務業議題
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 職場學習
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理知識
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理價值
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理趨勢
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 高效工作
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專業技能
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 產業動態
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 數位人才
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 正向思考
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 團隊管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 流程管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 工具應用
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 管理知識
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: Project
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 排程軟體
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 工地管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 施工進度
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 溝通能力
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 質量管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 預算控管
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 職涯轉職
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案績效
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: PM
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: AI工具
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 任務管理
+    count: 2
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-08'
+  - name: 五大流程
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理架構
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理階段
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理活動
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理知識體指南
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理計畫
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: Xmind
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: SMART目標
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 人力資源管理
+    count: 2
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 流程設計
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理導入
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 企業效率
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專業認證
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理範例
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案基線
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: ISO10006
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: ISO21500
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 領導統御
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 流程導向
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 敏捷開發
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 組織變革
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: IT 專案管理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: IT 專案經理
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理優點
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 專案管理概念
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: OpenCode
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: AI 編碼助手
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 終端機
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 開源
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 供應商無關
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: IDE 整合
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 中國古代三大秘術
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 天盤
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 地盤
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 人盤
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 神盤
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 中國神秘學
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 預測學
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 星相曆法
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 遊戲化
+    count: 2
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 行為理論
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 體驗設計
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 遊戲設計技巧
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 八角框架
+    count: 2
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 核心驅動力
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 行為設計
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 核心動力
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 遊戲化實戰全書
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 周郁凱
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 遊戲化思維
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 人生攻略
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 成長之路
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 目標設定
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 角色屬性
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
 - name: 技術
   tags:
   - name: database
-    count: 5
+    count: 6
     first_seen: '2026-06-28'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-06'
 - name: 概念
   tags:
   - name: strategy
-    count: 10
+    count: 11
     first_seen: '2026-06-30'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-07'
 - name: AI
   tags:
   - name: LLM
@@ -1987,9 +2479,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: AI
-    count: 7
+    count: 8
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-06'
   - name: Karpathy LLM Wiki
     count: 1
     first_seen: '2026-07-02'
@@ -2007,5 +2499,5 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
 metadata:
-  last_updated: '2026-07-04'
+  last_updated: '2026-07-08'
   version: '1.0'
