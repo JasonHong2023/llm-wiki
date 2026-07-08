@@ -2,27 +2,27 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 180
-    first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
-  - name: 中文
     count: 186
     first_seen: '2026-06-27'
     last_updated: '2026-07-08'
+  - name: 中文
+    count: 192
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-08'
   - name: English
-    count: 195
+    count: 201
     first_seen: '2026-06-27'
     last_updated: '2026-07-08'
   - name: 技術
-    count: 182
+    count: 188
     first_seen: '2026-06-27'
     last_updated: '2026-07-08'
   - name: programming
-    count: 181
+    count: 187
     first_seen: '2026-06-27'
     last_updated: '2026-07-08'
   - name: development
-    count: 176
+    count: 181
     first_seen: '2026-06-27'
     last_updated: '2026-07-08'
   - name: Python
@@ -51,17 +51,17 @@ categories:
     first_seen: '2026-06-27'
     last_updated: '2026-07-06'
   - name: web
-    count: 5
+    count: 6
     first_seen: '2026-06-27'
-    last_updated: '2026-07-06'
+    last_updated: '2026-07-08'
   - name: API
-    count: 21
+    count: 23
     first_seen: '2026-06-27'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-08'
   - name: REST
-    count: 21
+    count: 23
     first_seen: '2026-06-27'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-08'
   - name: Docker
     count: 2
     first_seen: '2026-06-27'
@@ -73,15 +73,15 @@ categories:
 - name: 程式語言
   tags:
   - name: JavaScript
-    count: 3
+    count: 4
     first_seen: '2026-06-28'
-    last_updated: '2026-07-04'
+    last_updated: '2026-07-08'
 - name: 主題
   tags:
   - name: frontend
-    count: 2
+    count: 3
     first_seen: '2026-06-28'
-    last_updated: '2026-06-30'
+    last_updated: '2026-07-08'
   - name: 資料庫
     count: 6
     first_seen: '2026-06-28'
@@ -2337,9 +2337,9 @@ categories:
     first_seen: '2026-07-07'
     last_updated: '2026-07-07'
   - name: OpenCode
-    count: 1
+    count: 6
     first_seen: '2026-07-07'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-08'
   - name: AI 編碼助手
     count: 1
     first_seen: '2026-07-07'
@@ -2349,9 +2349,9 @@ categories:
     first_seen: '2026-07-07'
     last_updated: '2026-07-07'
   - name: 開源
-    count: 1
+    count: 2
     first_seen: '2026-07-07'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-08'
   - name: 供應商無關
     count: 1
     first_seen: '2026-07-07'
@@ -2449,6 +2449,126 @@ categories:
     first_seen: '2026-07-08'
     last_updated: '2026-07-08'
   - name: 角色屬性
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 远程开发
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 后端核心进程
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 专用服务接口
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: mDNS
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 局域网内设备互相找不到
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: OpenCode Web
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: AI 编程
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: Web 界面
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 远程访问
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 团队协作
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 可视化操作
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: AI 編碼助理
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 免費開源工具
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 終端優先
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 模型自由
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 本地模型
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: AI 編程代理
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 程式碼生成
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 開發工作流程
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 可重用技能
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: We0ai
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: AI 編程助手
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 終端
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 多模型支持
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 隱私優先
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: Claude Code
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: AI编程工具
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 免费模型
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 神级插件
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: 编程
     count: 1
     first_seen: '2026-07-08'
     last_updated: '2026-07-08'
