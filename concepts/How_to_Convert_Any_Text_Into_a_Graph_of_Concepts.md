@@ -253,3 +253,4 @@ I am a learner of architecture (not the buildings… the tech kind). In the past
 - [[AI大神教你改善工作流，用「LLM Wiki」打造知識複利｜天下雜誌]]
 - [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]
 - [[諸子集成第六冊孫子十家注吳子尹文子呂氏春秋]]
+- [[我的_AI_每天自動抓新聞寫文案產圖這套基本上免費]]

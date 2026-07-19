@@ -2,29 +2,29 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 186
+    count: 197
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: 中文
-    count: 192
+    count: 203
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: English
-    count: 201
+    count: 211
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: 技術
-    count: 188
+    count: 198
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: programming
-    count: 187
+    count: 197
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: development
-    count: 181
+    count: 191
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: Python
     count: 5
     first_seen: '2026-06-27'
@@ -43,25 +43,25 @@ categories:
     first_seen: '2026-06-27'
     last_updated: '2026-07-07'
   - name: TypeScript
-    count: 3
+    count: 4
     first_seen: '2026-06-27'
-    last_updated: '2026-07-06'
+    last_updated: '2026-07-18'
   - name: typed
-    count: 3
+    count: 4
     first_seen: '2026-06-27'
-    last_updated: '2026-07-06'
+    last_updated: '2026-07-18'
   - name: web
-    count: 6
+    count: 7
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: API
-    count: 23
+    count: 25
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: REST
-    count: 23
+    count: 25
     first_seen: '2026-06-27'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: Docker
     count: 2
     first_seen: '2026-06-27'
@@ -73,15 +73,15 @@ categories:
 - name: 程式語言
   tags:
   - name: JavaScript
-    count: 4
+    count: 5
     first_seen: '2026-06-28'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
 - name: 主題
   tags:
   - name: frontend
-    count: 3
+    count: 4
     first_seen: '2026-06-28'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-18'
   - name: 資料庫
     count: 6
     first_seen: '2026-06-28'
@@ -185,9 +185,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: AI Agent
-    count: 5
+    count: 6
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-18'
   - name: 個人知識庫
     count: 6
     first_seen: '2026-06-30'
@@ -201,33 +201,33 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-06-30'
   - name: 紫微斗數
-    count: 5
+    count: 8
     first_seen: '2026-06-30'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-16'
   - name: 中國命理
-    count: 10
+    count: 15
     first_seen: '2026-06-30'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 占星術
-    count: 7
+    count: 11
     first_seen: '2026-06-30'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 星命學
-    count: 6
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 古籍
-    count: 7
+    count: 9
     first_seen: '2026-06-30'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 星盤
     count: 1
     first_seen: '2026-06-30'
     last_updated: '2026-06-30'
   - name: 命理學
-    count: 6
+    count: 11
     first_seen: '2026-06-30'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 星垣
     count: 1
     first_seen: '2026-06-30'
@@ -505,9 +505,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 易學
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-16'
   - name: 河圖
     count: 1
     first_seen: '2026-07-02'
@@ -1025,9 +1025,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 自動化
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-18'
   - name: 效率提升
     count: 1
     first_seen: '2026-07-02'
@@ -1197,9 +1197,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 孫子兵法
-    count: 3
+    count: 4
     first_seen: '2026-07-02'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-12'
   - name: 兵法
     count: 2
     first_seen: '2026-07-02'
@@ -1865,9 +1865,9 @@ categories:
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: 奇門遁甲
-    count: 4
+    count: 9
     first_seen: '2026-07-03'
-    last_updated: '2026-07-08'
+    last_updated: '2026-07-16'
   - name: 姜子牙
     count: 1
     first_seen: '2026-07-03'
@@ -2572,6 +2572,142 @@ categories:
     count: 1
     first_seen: '2026-07-08'
     last_updated: '2026-07-08'
+  - name: NotebookLM
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: AI筆記工具
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 資料整理
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 工作流
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 自定義指令
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 工作室面板
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 经济学原理
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 行为经济学
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 决策心理学
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 个人成长
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 读书分享
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 认知升级
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 底牌思維
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 成功學
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 人生智慧
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 頂級思維
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 競爭策略
+    count: 1
+    first_seen: '2026-07-12'
+    last_updated: '2026-07-12'
+  - name: 奇门遁甲
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 八卦陣
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 五行干支
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 預測法
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 九宮擇時
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 風水
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 占卜
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: 六爻占卜
+    count: 1
+    first_seen: '2026-07-16'
+    last_updated: '2026-07-16'
+  - name: Voicebox
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: 語音輸入
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: 語音輸出
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: TTS
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: 本機開源工具
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: Google
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: Apps Script
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: 新聞資料庫
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
+  - name: 行銷總監
+    count: 1
+    first_seen: '2026-07-18'
+    last_updated: '2026-07-18'
 - name: 技術
   tags:
   - name: database
@@ -2599,9 +2735,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: AI
-    count: 8
+    count: 9
     first_seen: '2026-07-02'
-    last_updated: '2026-07-06'
+    last_updated: '2026-07-18'
   - name: Karpathy LLM Wiki
     count: 1
     first_seen: '2026-07-02'
@@ -2619,5 +2755,5 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-18'
   version: '1.0'

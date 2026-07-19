@@ -385,3 +385,14 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-08T17:03 | ingest | OpenCode_完整指南安裝設定及建立可重用技能.md | Imported via browser extension from https://we0.ai/zh-HK/articles/article-1782380789709; tags=Markdown,中文,English,技術,programming |
 | 2026-07-08T17:06 | ingest | 5分鐘掌握_OpenCode開源_AI_編程助手新人完整指南_Apiyicom_Blog.md | Imported via browser extension from https://help.apiyi.com/zh-hant/opencode-ai-coding-agent-beginner-guide-2026-zh-hant.html; tags=Markdown,中文,English,技術,programming |
 | 2026-07-08T17:13 | ingest | OpenCode详细攻略开源版Claude_Code免费模型与神级插件_ai_科技_计算机_编程_coding.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/JYVTUU9ClUA |
+| 2026-07-12T15:42 | ingest | NotebookLM_2_0徹底變了2026年最重要更新一次看懂.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/mBoxAlg7V3M |
+| 2026-07-12T15:49 | ingest | 花20分钟读完经济学原理这本书让我戒掉了选择困难症.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/ofAgMbcoSZc |
+| 2026-07-12T16:22 | ingest | 人生真正重要的機會只留給手裡有牌的人養藏忍等出底牌五字訣頂級底牌思維八大心法孫武老子孔子同時告訴你孫子說.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/4uqE3vMCMMo |
+| 2026-07-16T10:03 | ingest | 奇門遁甲解盤全攻略完整教學與入門指南_禪香不二.md | Imported via browser extension from https://www.inzense.com.tw/qimen-dunjia-chart-interpretation-complete-guide-teaching-and-beginner-tutorial/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-16T10:07 | ingest | 奇门遁甲.md | Imported via browser extension from https://baike.baidu.com/item/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2/1071; tags=Markdown,中文,English,技術,programming |
+| 2026-07-16T11:15 | ingest | 奇門遁甲是甚麼解讀時間密碼探究天地人的學問神秘學院040.md | Imported via browser extension from https://www.esquirehk.com/lifestyle/qi-men-dun-jia; tags=Markdown,中文,English,技術,programming |
+| 2026-07-16T11:18 | ingest | 福山堂.md | Imported via browser extension from http://www.fushantang.com/1011/k1010.html; tags=Markdown,中文,技術,programming,development |
+| 2026-07-16T11:19 | ingest | 什麼是奇門遁甲九宮擇時入門_存真.md | Imported via browser extension from https://lushn.one/zh-hant/guide/%E4%BB%80%E9%BA%BC%E6%98%AF%E5%A5%87%E9%96%80%E9%81%81%E7%94%B2/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-16T11:26 | ingest | 巃羽堂_風水師推薦風水教學台北新北桃園新竹台中台南高雄風水師馬來西亞新加坡推薦風水老師看風水.md | Imported via browser extension from https://www.longyu.com.tw/news/details.php?id=7443&group_id=1351; tags=Markdown,中文,English,技術,programming |
+| 2026-07-18T20:25 | ingest | Voicebox整合聲音複製全域聽寫與_AI_Agent_語音輸出的本機開源工具_網路資源_DeTools_工具翼零.md | Imported via browser extension from https://tools.wingzero.tw/article/sn/3989; tags=Markdown,中文,English,技術,programming |
+| 2026-07-18T21:07 | ingest | 我的_AI_每天自動抓新聞寫文案產圖這套基本上免費.md | Imported via browser extension from https://hy-ai-newsbot.pages.dev/; tags=JavaScript,frontend,web,TypeScript,typed |

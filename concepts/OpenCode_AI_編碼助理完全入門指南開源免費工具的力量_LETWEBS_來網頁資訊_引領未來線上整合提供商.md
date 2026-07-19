@@ -398,3 +398,4 @@ OpenCode 是一款**強大且完全免費的 AI 編碼助理**，特別適合以
 - [[flomesh-io/ztm: ZTM (Zero Trust Mesh) is a privacy-first open-source decentralized end-to-end encrypted software defined network, based on HTTP/2 tunnels. Experience boundless connectivity and mesh the globe!]]
 - [[OpenCode_完整指南安裝設定及建立可重用技能]]
 - [[5分鐘掌握_OpenCode開源_AI_編程助手新人完整指南_Apiyicom_Blog]]
+- [[我的_AI_每天自動抓新聞寫文案產圖這套基本上免費]]
