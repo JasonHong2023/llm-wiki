@@ -30,3 +30,4 @@ Meta為加速轉型，於5月宣布進行大規模重組，除裁員8,000人外�
 ## Related Pages
 
 - [[Voicebox整合聲音複製全域聽寫與_AI_Agent_語音輸出的本機開源工具_網路資源_DeTools_工具翼零]]
+- [[Hermes_Agent實務工作者參考指南2026]]

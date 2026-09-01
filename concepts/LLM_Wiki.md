@@ -151,3 +151,4 @@ npx skills add https://github.com/nashsu/llm_wiki_skill.git --skill llm_wiki_ski
 - [[🚀 API Mega List]]
 - [[Karpathy_的_LLM_Wiki_缺少了什麼以及如何修正]]
 - [[2026_OpenCode_教程完整安裝設定與配置指南_NxCode]]
+- [[Hermes_Agent實務工作者參考指南2026]]

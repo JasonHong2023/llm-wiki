@@ -227,3 +227,10 @@ Hermes Agent 的閉環學習已被多個獨立評測驗證有效，特別是在�
 ## Related Pages
 
 - [[OpenClaw 安全嗎？5 個必做的安全設定 | WenHao Yu]]
+- [[Hermes_Agent實務工作者參考指南2026]]
+
+<!-- auto-append:2026-07-22 from=Hermes_Agent實務工作者參考指南2026 -->
+## 補充（來自 [[Hermes_Agent實務工作者參考指南2026]]，2026-07-22）
+
+新增 Hermes Agent 實務工作者參考指南提供了供應商驗證的三種途徑、技能系統、設定階層以及 gateway 與 cron 使用細節，可補充比較頁面中對 Hermes 功能的描述。
+<!-- /auto-append -->

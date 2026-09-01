@@ -224,3 +224,7 @@ hermes pets install guan-miao --select
 3253 只宠物，总有一只会成为你的编程搭档。选一只，装上，让你的终端不再孤单。
 
 `hermes pets install <你喜欢的slug> --select`*本文基于 Hermes Agent v2.x + Petdex 画廊数据撰写。宠物数量随社区贡献持续增长，实际数字请以* *hermes pets list --limit 0**为准。*
+
+## Related Pages
+
+- [[Google_Gemini]]

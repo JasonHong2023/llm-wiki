@@ -396,3 +396,14 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-16T11:26 | ingest | 巃羽堂_風水師推薦風水教學台北新北桃園新竹台中台南高雄風水師馬來西亞新加坡推薦風水老師看風水.md | Imported via browser extension from https://www.longyu.com.tw/news/details.php?id=7443&group_id=1351; tags=Markdown,中文,English,技術,programming |
 | 2026-07-18T20:25 | ingest | Voicebox整合聲音複製全域聽寫與_AI_Agent_語音輸出的本機開源工具_網路資源_DeTools_工具翼零.md | Imported via browser extension from https://tools.wingzero.tw/article/sn/3989; tags=Markdown,中文,English,技術,programming |
 | 2026-07-18T21:07 | ingest | 我的_AI_每天自動抓新聞寫文案產圖這套基本上免費.md | Imported via browser extension from https://hy-ai-newsbot.pages.dev/; tags=JavaScript,frontend,web,TypeScript,typed |
+| 2026-07-19T21:54 | ingest | 遙遠恆星的適居帶內首次發現類似地球的行星存在大氣層_BBC_News_中文.md | Imported via browser extension from https://www.bbc.com/zhongwen/articles/c36d1glwl66o/trad; tags=Markdown,中文,English,技術,programming |
+| 2026-07-19T21:55 | ingest | Google_Gemini.md | Imported via browser extension from https://gemini.google.com/app/f05c25ea69edc475; tags=Markdown,中文,English,技術,programming |
+| 2026-07-19T21:56 | lint | wiki 健康檢查 | 孤兒頁=102; 缺標籤=0; 冷門標籤=546; 過時query=0 |
+| 2026-07-19T21:58 | lint_duplicates | wiki 重複內容偵測 | 分析群組=6; 略過群組=0; 疑似重複組=2 |
+| 2026-07-19T22:30 | ingest | 20分鐘認識日本女王卑彌呼唯一的紀錄只有晉國才有還是天照大神的原型邪馬台國到底在哪裡走讀日本史.md | type=auto; tags=Markdown,中文,English,技術,programming; source=https://youtu.be/ACbjy7OYEj0 |
+| 2026-07-22T10:44 | ingest | 用AI打造投資交易團隊_臺灣行銷研究.md | Imported via browser extension from https://tmrmds.co/article-business/33772/; tags=Markdown,中文,English,技術,programming |
+| 2026-07-22T13:45 | ingest | Hermes_Agent實務工作者參考指南2026.md | Imported via browser extension from https://blakecrosley.com/zh-Hant/guides/hermes; tags=Python,非同步,scripting,TypeScript,typed |
+| 2026-07-22T13:45 | auto_update | Hermes_Agent實務工作者參考指南2026 | 補充頁面=concepts/Hermes_Agent_vs_OpenClaw2026_年最完整的_AI_Agent_比較 |
+| 2026-07-22T13:46 | lint | wiki 健康檢查 | 孤兒頁=104; 缺標籤=0; 冷門標籤=562; 過時query=0 |
+| 2026-07-22T13:46 | lint | wiki 健康檢查 | 孤兒頁=104; 缺標籤=0; 冷門標籤=562; 過時query=0 |
+| 2026-07-22T13:47 | lint_duplicates | wiki 重複內容偵測 | 分析群組=6; 略過群組=0; 疑似重複組=0 |

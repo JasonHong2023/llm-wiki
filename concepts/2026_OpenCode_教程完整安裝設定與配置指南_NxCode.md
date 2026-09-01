@@ -324,3 +324,4 @@ OpenCode 是一款強大的開源 AI 編碼助手，將智慧化協助直接帶�
 - [[OpenCode_AI_編碼助理完全入門指南開源免費工具的力量_LETWEBS_來網頁資訊_引領未來線上整合提供商]]
 - [[OpenCode_完整指南安裝設定及建立可重用技能]]
 - [[5分鐘掌握_OpenCode開源_AI_編程助手新人完整指南_Apiyicom_Blog]]
+- [[Hermes_Agent實務工作者參考指南2026]]

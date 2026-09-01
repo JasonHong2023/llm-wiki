@@ -320,3 +320,5 @@ Google 快訊、試算表、Apps Script、排程全部免費。唯一可能花�
 - [[OpenCode AI 編碼助理完全入門指南：開源免費工具的力量 | LETWEBS 來網頁資訊 ─ 引領未來線上整合提供商]]
 - [[How to Convert Any Text Into a Graph of Concepts]]
 - [[flomesh-io/ztm: ZTM (Zero Trust Mesh) is a privacy-first open-source decentralized end-to-end encrypted software defined network, based on HTTP/2 tunnels. Experience boundless connectivity and mesh the globe!]]
+- [[用AI打造投資交易團隊_臺灣行銷研究]]
+- [[Hermes_Agent實務工作者參考指南2026]]

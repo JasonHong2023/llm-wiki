@@ -63,3 +63,4 @@ Voice Profile 也不只保存聲音本身。使用者可以為不同聲音附加
 ## Related Pages
 
 - [[祖克伯：Meta AI代理發展不如預期 重組時機判斷有誤]]
+- [[Hermes_Agent實務工作者參考指南2026]]

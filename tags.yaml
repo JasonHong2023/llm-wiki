@@ -2,66 +2,66 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 197
+    count: 202
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: 中文
-    count: 203
+    count: 208
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: English
-    count: 211
+    count: 215
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: 技術
-    count: 198
+    count: 202
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: programming
-    count: 197
+    count: 201
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: development
-    count: 191
+    count: 195
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: Python
-    count: 5
+    count: 6
     first_seen: '2026-06-27'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-22'
     related:
     - 非同步
   - name: 非同步
-    count: 6
+    count: 7
     first_seen: '2026-06-27'
-    last_updated: '2026-07-07'
+    last_updated: '2026-07-22'
     related:
     - Python
     - async
   - name: scripting
+    count: 6
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-22'
+  - name: TypeScript
     count: 5
     first_seen: '2026-06-27'
-    last_updated: '2026-07-07'
-  - name: TypeScript
-    count: 4
-    first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: typed
-    count: 4
+    count: 5
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: web
-    count: 7
+    count: 8
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: API
-    count: 25
+    count: 27
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: REST
-    count: 25
+    count: 27
     first_seen: '2026-06-27'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: Docker
     count: 2
     first_seen: '2026-06-27'
@@ -185,9 +185,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: AI Agent
-    count: 6
+    count: 7
     first_seen: '2026-06-30'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: 個人知識庫
     count: 6
     first_seen: '2026-06-30'
@@ -325,9 +325,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: Hermes Agent
-    count: 2
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-22'
   - name: 個人助理
     count: 1
     first_seen: '2026-07-02'
@@ -1433,9 +1433,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 大型語言模型
-    count: 2
+    count: 3
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-07-22'
   - name: 知識掌握度分析
     count: 1
     first_seen: '2026-07-02'
@@ -1681,9 +1681,9 @@ categories:
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: 適居帶
-    count: 1
+    count: 2
     first_seen: '2026-07-03'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-19'
   - name: 生命跡象
     count: 1
     first_seen: '2026-07-03'
@@ -1893,9 +1893,9 @@ categories:
     first_seen: '2026-07-03'
     last_updated: '2026-07-03'
   - name: Hermes
-    count: 1
+    count: 2
     first_seen: '2026-07-03'
-    last_updated: '2026-07-03'
+    last_updated: '2026-07-19'
   - name: Petdex
     count: 1
     first_seen: '2026-07-03'
@@ -2708,6 +2708,110 @@ categories:
     count: 1
     first_seen: '2026-07-18'
     last_updated: '2026-07-18'
+  - name: 大氣層
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 類地行星
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 太陽系外
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 生命探索
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 行星科學
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 外匯投資
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: AI 團隊
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 多 Agent 框架
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: MetaTrader 5
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 自動化交易
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 日本歷史
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 邪馬台國
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 卑彌呼
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 魏志倭人傳
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 日本旅遊
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 考古學
+    count: 1
+    first_seen: '2026-07-19'
+    last_updated: '2026-07-19'
+  - name: 投資交易團隊
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 金融系統
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 交易決策
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 風險控制
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 自我改進型 AI 代理
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 跨平台訊息閘道
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 供應商驗證
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: OAuth
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 設定檔
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
+  - name: 技能系統
+    count: 1
+    first_seen: '2026-07-22'
+    last_updated: '2026-07-22'
 - name: 技術
   tags:
   - name: database
@@ -2735,9 +2839,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: AI
-    count: 9
+    count: 10
     first_seen: '2026-07-02'
-    last_updated: '2026-07-18'
+    last_updated: '2026-07-22'
   - name: Karpathy LLM Wiki
     count: 1
     first_seen: '2026-07-02'
@@ -2755,5 +2859,5 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
 metadata:
-  last_updated: '2026-07-18'
+  last_updated: '2026-07-22'
   version: '1.0'

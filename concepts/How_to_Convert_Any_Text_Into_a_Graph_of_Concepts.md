@@ -254,3 +254,4 @@ I am a learner of architecture (not the buildings… the tech kind). In the past
 - [[rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl]]
 - [[諸子集成第六冊孫子十家注吳子尹文子呂氏春秋]]
 - [[我的_AI_每天自動抓新聞寫文案產圖這套基本上免費]]
+- [[Hermes_Agent實務工作者參考指南2026]]
