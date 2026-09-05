@@ -407,3 +407,4 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-22T13:46 | lint | wiki 健康檢查 | 孤兒頁=104; 缺標籤=0; 冷門標籤=562; 過時query=0 |
 | 2026-07-22T13:46 | lint | wiki 健康檢查 | 孤兒頁=104; 缺標籤=0; 冷門標籤=562; 過時query=0 |
 | 2026-07-22T13:47 | lint_duplicates | wiki 重複內容偵測 | 分析群組=6; 略過群組=0; 疑似重複組=0 |
+| 2026-09-02T10:19 | ingest | 主管特助營運長研揚科技股份有限公司104_人力銀行.md | Imported via browser extension from https://www.104.com.tw/job/8jlqs?jobsource=my104_apply&apply=form; tags=Markdown,中文,English,技術,programming |

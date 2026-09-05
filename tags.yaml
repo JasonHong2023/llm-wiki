@@ -2,29 +2,29 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 202
+    count: 203
     first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
+    last_updated: '2026-09-02'
   - name: 中文
-    count: 208
+    count: 209
     first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
+    last_updated: '2026-09-02'
   - name: English
-    count: 215
+    count: 216
     first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
+    last_updated: '2026-09-02'
   - name: 技術
+    count: 203
+    first_seen: '2026-06-27'
+    last_updated: '2026-09-02'
+  - name: programming
     count: 202
     first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
-  - name: programming
-    count: 201
-    first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
+    last_updated: '2026-09-02'
   - name: development
-    count: 195
+    count: 196
     first_seen: '2026-06-27'
-    last_updated: '2026-07-22'
+    last_updated: '2026-09-02'
   - name: Python
     count: 6
     first_seen: '2026-06-27'
@@ -125,13 +125,13 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-07'
   - name: 團隊協作
-    count: 30
+    count: 31
     first_seen: '2026-06-30'
-    last_updated: '2026-07-07'
+    last_updated: '2026-09-02'
   - name: 領導力
-    count: 32
+    count: 33
     first_seen: '2026-06-30'
-    last_updated: '2026-07-07'
+    last_updated: '2026-09-02'
   - name: 會議規劃
     count: 5
     first_seen: '2026-06-30'
@@ -141,9 +141,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 商業管理
-    count: 9
+    count: 10
     first_seen: '2026-06-30'
-    last_updated: '2026-07-07'
+    last_updated: '2026-09-02'
   - name: 知乎
     count: 2
     first_seen: '2026-06-30'
@@ -2812,6 +2812,14 @@ categories:
     count: 1
     first_seen: '2026-07-22'
     last_updated: '2026-07-22'
+  - name: 工業電腦
+    count: 1
+    first_seen: '2026-09-02'
+    last_updated: '2026-09-02'
+  - name: 人才招募
+    count: 1
+    first_seen: '2026-09-02'
+    last_updated: '2026-09-02'
 - name: 技術
   tags:
   - name: database
@@ -2859,5 +2867,5 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-09-02'
   version: '1.0'
