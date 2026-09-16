@@ -2,29 +2,29 @@ categories:
 - name: framework
   tags:
   - name: Markdown
-    count: 203
+    count: 206
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: 中文
-    count: 209
+    count: 212
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: English
-    count: 216
+    count: 219
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: 技術
-    count: 203
+    count: 207
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: programming
-    count: 202
+    count: 205
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: development
-    count: 196
+    count: 199
     first_seen: '2026-06-27'
-    last_updated: '2026-09-02'
+    last_updated: '2026-09-15'
   - name: Python
     count: 6
     first_seen: '2026-06-27'
@@ -841,9 +841,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 知識庫
-    count: 7
+    count: 8
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-09-13'
   - name: 知識管理
     count: 3
     first_seen: '2026-07-02'
@@ -2001,9 +2001,9 @@ categories:
     first_seen: '2026-07-06'
     last_updated: '2026-07-06'
   - name: 知識提取
-    count: 3
+    count: 4
     first_seen: '2026-07-06'
-    last_updated: '2026-07-07'
+    last_updated: '2026-09-13'
   - name: 知識推理
     count: 2
     first_seen: '2026-07-06'
@@ -2820,6 +2820,74 @@ categories:
     count: 1
     first_seen: '2026-09-02'
     last_updated: '2026-09-02'
+  - name: 網站
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: 用戶體驗
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: 反饋
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: 機器學習
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: AI訓練伺服器
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: GPU
+    count: 2
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-14'
+  - name: 硬體規格
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: 深度學習
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: 高效能運算
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: AI硬體
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
+  - name: NVIDIA
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
+  - name: 伺服器
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
+  - name: maybe "技术" (technology)
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 產業趨勢" (industry trends)
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 技術觀測" (tech observation)
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 數位轉型" (digital transformation)
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 創新案例" (innovation case)
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
 - name: 技術
   tags:
   - name: database
@@ -2866,6 +2934,14 @@ categories:
     count: 1
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
+  - name: ML
+    count: 1
+    first_seen: '2026-09-13'
+    last_updated: '2026-09-13'
+  - name: LLM訓練
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
 metadata:
-  last_updated: '2026-09-02'
+  last_updated: '2026-09-15'
   version: '1.0'

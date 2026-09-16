@@ -408,3 +408,7 @@ Chronological record of all wiki actions. Append-only.
 | 2026-07-22T13:46 | lint | wiki 健康檢查 | 孤兒頁=104; 缺標籤=0; 冷門標籤=562; 過時query=0 |
 | 2026-07-22T13:47 | lint_duplicates | wiki 重複內容偵測 | 分析群組=6; 略過群組=0; 疑似重複組=0 |
 | 2026-09-02T10:19 | ingest | 主管特助營運長研揚科技股份有限公司104_人力銀行.md | Imported via browser extension from https://www.104.com.tw/job/8jlqs?jobsource=my104_apply&apply=form; tags=Markdown,中文,English,技術,programming |
+| 2026-09-13T19:09 | ingest | t.md | Ingested via automation; tags=技術,網站,用戶體驗,反饋,知識庫 |
+| 2026-09-13T19:11 | ingest | AI_訓練用伺服器_GPU_規格建議_2026_09_13.md | Ingested via automation from https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/; tags=Markdown,中文,English,技術,programming |
+| 2026-09-14T03:01 | ingest | AI_訓練用伺服器_GPU_規格建議_2026_09_13.md | Ingested via automation from https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/; tags=Markdown,中文,English,技術,programming |
+| 2026-09-15T03:00 | ingest | 邊緣AI裝置硬體需求概覽_2026_09_14.md | Ingested via automation from https://www.silextechnology.com/unwired/choosing-the-right-architecture-for-your-edge-ai-device; tags=Markdown,中文,English,技術,programming |
