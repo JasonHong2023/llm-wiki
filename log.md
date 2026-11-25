@@ -412,3 +412,14 @@ Chronological record of all wiki actions. Append-only.
 | 2026-09-13T19:11 | ingest | AI_訓練用伺服器_GPU_規格建議_2026_09_13.md | Ingested via automation from https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/; tags=Markdown,中文,English,技術,programming |
 | 2026-09-14T03:01 | ingest | AI_訓練用伺服器_GPU_規格建議_2026_09_13.md | Ingested via automation from https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/; tags=Markdown,中文,English,技術,programming |
 | 2026-09-15T03:00 | ingest | 邊緣AI裝置硬體需求概覽_2026_09_14.md | Ingested via automation from https://www.silextechnology.com/unwired/choosing-the-right-architecture-for-your-edge-ai-device; tags=Markdown,中文,English,技術,programming |
+| 2026-11-24T15:02 | ingest | python-docs-315-index.md | Imported from https://docs.python.org/3/ via curl+html2text (web_extract backend ddgs is search-only); raw/articles/python-docs-315-index.md; tags=Markdown,English,技術,programming,Python |
+| 2026-11-24T15:02 | ingest | python-whatsnew-315.md | Imported from https://docs.python.org/3/whatsnew/3.15.html via curl+html2text; raw/articles/python-whatsnew-315.md; tags=Markdown,English,技術,programming,Python |
+| 2026-11-24T15:02 | create | python-315-whats-new-summary.md | Python 3.15 新功能總覽摘要; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,features,optimization,security,效能優化,語言特性 |
+| 2026-11-24T15:02 | create | python-315-pep-index.md | Python 3.15 PEP 索引（交叉連結中心）; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,PEP,語言特性,型別系統,C API |
+| 2026-11-24T15:02 | create | python-lazy-imports.md | PEP 810 顯式延遲導入詳解; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,features,效能優化,語言特性,啟動效能 |
+| 2026-11-24T15:02 | create | python-frozendict.md | PEP 814 frozendict 內建型別詳解; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,features,語言特性,builtins,資料型別,不可變型別 |
+| 2026-11-24T15:02 | create | python-sentinel.md | PEP 661 sentinel 內建型別詳解; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,features,語言特性,builtins,型別標註 |
+| 2026-11-24T15:02 | create | python-tachyon-profiler.md | PEP 799 Tachyon 採樣分析器詳解; type=concept; tags=Markdown,中文,English,技術,programming,Python,3.15,profiling,效能優化,除錯,效能分析 |
+| 2026-11-24T15:02 | update | SCHEMA.md | 建立 Wiki Schema，涵蓋實際跨領域範圍與既有 tags.yaml 分類法 |
+| 2026-11-24T15:34 | ingest | raw/articles/prompts-tw-fanti-rewrite-prompt.md | prompts.tw 繁中潤稿指令原文（Hermes 擷取） |
+| 2026-11-24T15:50 | create | fanti-rewrite-prompt.md | 繁中潤稿指令整理頁，含不能照套的對照; type=concept; tags=Markdown,中文,AI 寫作,AI 工具,大語言模型 |
