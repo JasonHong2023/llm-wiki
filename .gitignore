@@ -13,3 +13,8 @@ Thumbs.db
 # Lint 健康檢查報告、待審核佇列（產生物，不需要版本控制）
 .lint_reports/
 .pending_updates.jsonl
+
+# wiki_ingest 工具的暫存（本文暫存、批次進度）
+.tools/inbox/
+.tools/batch-state.jsonl
+.tools/__pycache__/
