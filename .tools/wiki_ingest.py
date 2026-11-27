@@ -154,7 +154,7 @@ def bump_tags(used: list[str], new: list[str], category: str) -> None:
         for t in used:
             if t in new:
                 continue
-            pat = re.compile(r"(^  - name: " + re.escape(t) + r"\n    count: )(\d+)((?:\n    first_seen: [^\n]*)?)"
+            pat = re.compile(r"(^  - name: ['\"]?" + re.escape(t) + r"['\"]?\n    count: )(\d+)((?:\n    first_seen: [^\n]*)?)"
                              r"(\n    last_updated: )[^\n]*", re.M)
             text = pat.sub(lambda m: f"{m.group(1)}{int(m.group(2)) + 1}{m.group(3)}{m.group(4)}'{day}'", text, 1)
         if new:
@@ -163,8 +163,10 @@ def bump_tags(used: list[str], new: list[str], category: str) -> None:
             if category not in names:
                 raise IngestError(f"tags.yaml 沒有分類「{category}」；可用：{'、'.join(names)}")
             i = names.index(category)
-            end = cats[i + 1][0] if i + 1 < len(cats) else len(text)
-            block = "".join(f"  - name: {t}\n    count: 1\n    first_seen: '{day}'\n    last_updated: '{day}'\n"
+            # 分類結束於下一個分類或下一個頂層鍵（檔尾有 metadata:）/ ends at the next category or top-level key
+            bounds = [m.start() for m in re.finditer(r"^(?:- name: |[A-Za-z_]+:)", text, re.M) if m.start() > cats[i][0]]
+            end = bounds[0] if bounds else len(text)
+            block = "".join(f"  - name: {chr(39) + t + chr(39) if ':' in t or re.fullmatch(r'[\d.]+', t) else t}\n    count: 1\n    first_seen: '{day}'\n    last_updated: '{day}'\n"
                             for t in new)
             head = text[:end] if text[:end].endswith("\n") else text[:end] + "\n"
             text = head + block + text[end:]

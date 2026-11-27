@@ -27,6 +27,12 @@ TAGS = """categories:
     count: 1
     first_seen: '2026-11-26'
     last_updated: '2026-11-26'
+  - name: 'source:youtube'
+    count: 4
+    first_seen: '2026-07-01'
+    last_updated: '2026-07-01'
+metadata:
+  version: '1.0'
 """
 DOC = "# CUDA 程式設計指南\n\n## 執行模型\n\nCUDA 用 thread、block、grid 組織平行運算。\n\n## 記憶體\n\n共享記憶體很快。\n"
 BODY = ("CUDA 是 NVIDIA 的平行運算平台，程式以 kernel 在 GPU 上執行，執行緒分成 thread、block、grid 三層。"
@@ -117,6 +123,15 @@ class TestWikiIngest(unittest.TestCase):
         self.assertIn("| create | cuda-model.md |", (self.v / "log.md").read_text(encoding="utf-8"))
         st = subprocess.run(["git", "-C", str(self.v), "status", "--short"], capture_output=True, text=True).stdout
         self.assertEqual(st.strip(), "")
+
+    def test_new_tag_in_last_category_stays_before_metadata(self):
+        info = self.quiet(self.w.cmd_add, str(self.src))
+        self.quiet(self.w.cmd_page, "cuda-model", "CUDA", "concept", ["source:youtube", "新標"], info["raw"], BODY,
+                   new_tags=["新標"], category="主題")
+        text = (self.v / "tags.yaml").read_text(encoding="utf-8")
+        self.assertLess(text.index("name: 新標"), text.index("metadata:"))
+        self.assertIn("  - name: 'source:youtube'\n    count: 5", text)
+        self.assertTrue(text.rstrip().endswith("version: '1.0'"))
 
     def test_page_update_keeps_old_text_and_frontmatter(self):
         info = self.quiet(self.w.cmd_add, str(self.src))

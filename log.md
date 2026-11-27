@@ -423,3 +423,4 @@ Chronological record of all wiki actions. Append-only.
 | 2026-11-24T15:02 | update | SCHEMA.md | 建立 Wiki Schema，涵蓋實際跨領域範圍與既有 tags.yaml 分類法 |
 | 2026-11-24T15:34 | ingest | raw/articles/prompts-tw-fanti-rewrite-prompt.md | prompts.tw 繁中潤稿指令原文（Hermes 擷取） |
 | 2026-11-24T15:50 | create | fanti-rewrite-prompt.md | 繁中潤稿指令整理頁，含不能照套的對照; type=concept; tags=Markdown,中文,AI 寫作,AI 工具,大語言模型 |
+| 2026-11-27T11:43 | update | tags.yaml | 補上頁面已在用、但分類法沒有的 46 個標籤（主題 42、新分類「來源」4：source:browser-extension／youtube／github／automation）；含 11-26 Hermes 加的 CUDA 標籤；頁面不動 |

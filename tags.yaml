@@ -2888,6 +2888,174 @@ categories:
     count: 1
     first_seen: '2026-09-15'
     last_updated: '2026-09-15'
+  - name: '3.15'
+    count: 6
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: AI硬體需求
+    count: 2
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-15'
+  - name: C API
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: Eidolon
+    count: 13
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: GPU伺服器
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
+  - name: NPU
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: PEP
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: TOPS
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: builtins
+    count: 2
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: features
+    count: 4
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: opencode
+    count: 1
+    first_seen: '2026-07-08'
+    last_updated: '2026-07-08'
+  - name: optimization
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: profiling
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: security
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 不可變型別
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 中國古典神話
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 二十八星宿
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 五行
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 八仙
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 古代哲學家
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 古代工藝
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 古代文學
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 古典音樂
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 呂氏春秋
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 命名池
+    count: 13
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 命名素材
+    count: 13
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 啟動效能
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 型別標註
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 型別系統
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 嵌入式
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 戰國兵法
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 效能分析
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 星座
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 白話語譯
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 藝術家
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 訓練規格
+    count: 1
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-14'
+  - name: 語言特性
+    count: 5
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 諸子百家
+    count: 1
+    first_seen: '2026-07-07'
+    last_updated: '2026-07-07'
+  - name: 資料型別
+    count: 1
+    first_seen: '2026-11-24'
+    last_updated: '2026-11-24'
+  - name: 邊緣運算
+    count: 1
+    first_seen: '2026-09-15'
+    last_updated: '2026-09-15'
+  - name: 電影術語
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
+  - name: 電影角色或導演
+    count: 1
+    first_seen: '2026-11-27'
+    last_updated: '2026-11-27'
 - name: 技術
   tags:
   - name: database
@@ -2942,6 +3110,76 @@ categories:
     count: 1
     first_seen: '2026-09-14'
     last_updated: '2026-09-14'
+  - name: CUDA
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: 平行運算
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: GPU程式設計
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: SIMT
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: 記憶體管理
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: 效能優化
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: 編譯器
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: 除錯
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: Blackwell
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: Hopper
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: Ampere
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: Ada Lovelace
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+  - name: Turing
+    count: 1
+    first_seen: '2026-11-26'
+    last_updated: '2026-11-26'
+- name: 來源
+  tags:
+  - name: 'source:automation'
+    count: 2
+    first_seen: '2026-09-14'
+    last_updated: '2026-09-15'
+  - name: 'source:browser-extension'
+    count: 65
+    first_seen: '2026-07-03'
+    last_updated: '2026-09-02'
+  - name: 'source:github'
+    count: 6
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-08'
+  - name: 'source:youtube'
+    count: 34
+    first_seen: '2026-06-27'
+    last_updated: '2026-07-19'
 metadata:
-  last_updated: '2026-09-15'
+  last_updated: '2026-11-26'
   version: '1.0'
