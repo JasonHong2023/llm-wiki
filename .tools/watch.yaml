@@ -54,3 +54,8 @@
   url: https://fractal.trampoline.ai/
   every: monthly
   focus: 安裝方式與功能
+
+- page: concepts/World_Monitor.md
+  url: https://github.com/koala73/worldmonitor
+  every: weekly
+  focus: 功能與資料來源
