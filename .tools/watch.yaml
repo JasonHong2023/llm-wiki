@@ -74,3 +74,8 @@
   url: https://github.com/anthropics/financial-services
   every: weekly
   focus: 代理、技能、資料連接器的增減
+
+- page: concepts/Voicebox整合聲音複製全域聽寫與_AI_Agent_語音輸出的本機開源工具_網路資源_DeTools_工具翼零.md
+  url: https://github.com/jamiepine/voicebox
+  every: weekly
+  focus: 支援的 TTS 引擎與功能
