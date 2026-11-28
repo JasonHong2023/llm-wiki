@@ -89,3 +89,8 @@
   url: https://docs.nvidia.com/cuda/cuda-programming-guide/index.html
   every: weekly
   focus: CUDA 版本號、新增章節與功能
+
+- page: concepts/tw-taxonomy.md
+  url: https://github.com/seyen37/tw-taxonomy
+  every: monthly
+  focus: 版本號、微主題與先修關係數量
