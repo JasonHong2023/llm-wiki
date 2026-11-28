@@ -1,0 +1,6 @@
+# 定期上網查更新的清單（wiki_ingest.py refresh 每晚讀）
+
+- page: concepts/OpenCode_完整指南安裝設定及建立可重用技能.md
+  url: https://opencode.ai/docs/
+  every: weekly
+  focus: 安裝方式、設定檔、指令與功能
