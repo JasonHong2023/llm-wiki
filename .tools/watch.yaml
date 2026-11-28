@@ -69,3 +69,8 @@
   url: https://github.com/flomesh-io/ztm/releases
   every: weekly
   focus: 最新版本號、發佈日期
+
+- page: concepts/anthropicsfinancial_services.md
+  url: https://github.com/anthropics/financial-services
+  every: weekly
+  focus: 代理、技能、資料連接器的增減
