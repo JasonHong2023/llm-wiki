@@ -49,3 +49,8 @@
   url: https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/
   every: monthly
   focus: GPU 型號、VRAM、記憶體建議
+
+- page: concepts/Fractal_CLI_Agent.md
+  url: https://fractal.trampoline.ai/
+  every: monthly
+  focus: 安裝方式與功能
