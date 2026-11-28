@@ -24,3 +24,8 @@
   url: https://github.com/openclaw/openclaw/releases
   every: weekly
   focus: OpenClaw 最新版本號、發佈日期、重大變更
+
+- page: concepts/MCP_Servers.md
+  url: https://github.com/modelcontextprotocol/servers
+  every: weekly
+  focus: 官方伺服器清單的增減
