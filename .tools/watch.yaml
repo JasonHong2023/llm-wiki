@@ -14,3 +14,8 @@
   url: https://github.com/NousResearch/hermes-agent/releases
   every: weekly
   focus: 最新版本號、發佈日期、重大變更
+
+- page: concepts/Hermes_Agent_新增_learn_指令讓任何資料都能變成可重複使用的_AI_技能_電腦王阿達.md
+  url: https://hermes-agent.nousresearch.com/docs/
+  every: weekly
+  focus: 指令與功能
