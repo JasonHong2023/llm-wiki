@@ -84,3 +84,8 @@
   url: https://github.com/rahulnyk/knowledge_graph
   every: monthly
   focus: 功能與用法
+
+- page: concepts/cuda-programming-guide.md
+  url: https://docs.nvidia.com/cuda/cuda-programming-guide/index.html
+  every: weekly
+  focus: CUDA 版本號、新增章節與功能
