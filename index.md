@@ -12,6 +12,7 @@
 - [[python-sentinel]] — PEP 661 sentinel 內建型別，用於唯一哨兵值
 - [[python-tachyon-profiler]] — PEP 799 Tachyon 高頻率統計採樣分析器
 - [[fanti-rewrite-prompt]] — 繁中潤稿（去簡體化）指令：用法與不能照套的對照
+- [[cuda-programming-guide]] — NVIDIA 官方 CUDA 程式設計指南的架構與五個部分
 
 ## 課程
 - [[金牌獵人_直覺K戰操盤法]]

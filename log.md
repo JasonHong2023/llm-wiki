@@ -426,3 +426,4 @@ Chronological record of all wiki actions. Append-only.
 | 2026-11-27T11:43 | update | tags.yaml | 補上頁面已在用、但分類法沒有的 46 個標籤（主題 42、新分類「來源」4：source:browser-extension／youtube／github／automation）；含 11-26 Hermes 加的 CUDA 標籤；頁面不動 |
 | 2026-11-28T11:05 | ingest | raw/articles/tw-taxonomy-readme-summary.md | wiki_ingest add from tw-taxonomy-readme-summary.md; sha256=368465f64aa2; source=https://github.com/seyen37/tw-taxonomy |
 | 2026-11-28T11:05 | ingest | raw/articles/cuda-programming-guide-summary.md | wiki_ingest add from cuda-programming-guide-summary.md; sha256=13d2b33b533f; source=https://docs.nvidia.com/cuda/cuda-programming-guide/index.html |
+| 2026-11-28T11:05 | create | cuda-programming-guide.md | NVIDIA 官方 CUDA 程式設計指南的架構與五個部分; type=concept; tags=CUDA,NVIDIA,GPU程式設計,平行運算; source=raw/articles/cuda-programming-guide-summary.md |

@@ -2861,9 +2861,9 @@ categories:
     first_seen: '2026-09-14'
     last_updated: '2026-09-14'
   - name: NVIDIA
-    count: 1
+    count: 2
     first_seen: '2026-09-14'
-    last_updated: '2026-09-14'
+    last_updated: '2026-11-28'
   - name: 伺服器
     count: 1
     first_seen: '2026-09-14'
@@ -3111,17 +3111,17 @@ categories:
     first_seen: '2026-09-14'
     last_updated: '2026-09-14'
   - name: CUDA
-    count: 1
+    count: 2
     first_seen: '2026-11-26'
-    last_updated: '2026-11-26'
+    last_updated: '2026-11-28'
   - name: 平行運算
-    count: 1
+    count: 2
     first_seen: '2026-11-26'
-    last_updated: '2026-11-26'
+    last_updated: '2026-11-28'
   - name: GPU程式設計
-    count: 1
+    count: 2
     first_seen: '2026-11-26'
-    last_updated: '2026-11-26'
+    last_updated: '2026-11-28'
   - name: SIMT
     count: 1
     first_seen: '2026-11-26'
