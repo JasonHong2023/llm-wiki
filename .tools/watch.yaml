@@ -9,3 +9,8 @@
   url: https://github.com/anomalyco/opencode/releases
   every: weekly
   focus: 最新版本號、發佈日期、重大變更
+
+- page: concepts/Hermes_Agent實務工作者參考指南2026.md
+  url: https://github.com/NousResearch/hermes-agent/releases
+  every: weekly
+  focus: 最新版本號、發佈日期、重大變更
