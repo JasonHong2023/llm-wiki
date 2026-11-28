@@ -29,3 +29,8 @@
   url: https://github.com/modelcontextprotocol/servers
   every: weekly
   focus: 官方伺服器清單的增減
+
+- page: concepts/python-315-whats-new-summary.md
+  url: https://docs.python.org/3.15/whatsnew/3.15.html
+  every: weekly
+  focus: 新功能、棄用、移除
