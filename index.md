@@ -22,3 +22,4 @@
 - [[prompts-tw-fanti-rewrite-prompt]] — prompts.tw 繁中潤稿指令原文（raw/articles/prompts-tw-fanti-rewrite-prompt.md）
 - [[cuda-programming-guide-v13.5-analysis]] — NVIDIA CUDA Programming Guide v13.5 — 完整章節深度分析（raw/articles/cuda-programming-guide-v13.5-analysis.md）
 - [[tw-taxonomy-readme-summary]] — tw-taxonomy（GitHub）網頁重點：芥子記憶摘錄（raw/articles/tw-taxonomy-readme-summary.md）
+- [[cuda-programming-guide-summary]] — CUDA Programming Guide 網頁重點：芥子記憶摘錄（raw/articles/cuda-programming-guide-summary.md）
