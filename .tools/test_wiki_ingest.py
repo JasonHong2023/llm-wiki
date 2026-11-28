@@ -225,5 +225,114 @@ class TestWikiIngest(unittest.TestCase):
         self.assertEqual("".join(parts).replace("\n", ""), body.replace("\n", ""))
 
 
+class TestRefresh(unittest.TestCase):
+    tearDown, quiet = TestWikiIngest.tearDown, TestWikiIngest.quiet
+    PAGE = "---\ntitle: CUDA 工具包\n---\n\n# CUDA 工具包\n\n目前最新版是 CUDA 13.0。\n"
+    V1 = "CUDA Toolkit 下載\n最新版本：CUDA 13.0\n發佈日期：2026-08-01\n支援 Linux 與 Windows\n更新於 10:30\n"
+    V2 = "CUDA Toolkit 下載\n最新版本：CUDA 13.1\n發佈日期：2026-11-20\n支援 Linux 與 Windows\n更新於 11:45\n"
+
+    def setUp(self):
+        TestWikiIngest.setUp(self)
+        (self.v / "concepts" / "cuda-toolkit.md").write_text(self.PAGE, encoding="utf-8")
+        self.quiet(self.w.cmd_watch_add, "concepts/cuda-toolkit.md", "https://example.com/cuda", "weekly", "最新版本")
+        self.pages, self.asked = [self.V1], []
+
+    def fetch(self, url, root):
+        return self.pages.pop(0)
+
+    def run_refresh(self, reply='{"changes": []}'):
+        def ask(prompt):
+            self.asked.append(prompt)
+            return reply
+        fetch = lambda url, root: (lambda x: x if isinstance(x, dict) else {"text": x, "title": "CUDA"})(
+            self.pages.pop(0))
+        with redirect_stdout(io.StringIO()):
+            return self.w.cmd_refresh(True, True, "~/x", ask_fn=ask, fetch_fn=fetch, sleep=lambda s: None)
+
+    def expire(self):
+        st = self.w.load_state()
+        for v in st.values():
+            v["checked"] = "2026-01-01T00:00"
+        self.w.write(self.w.WATCH_STATE, self.w.json.dumps(st))
+
+    def raws(self):
+        return sorted(p.name for p in (self.v / "raw" / "articles").glob("*.md"))
+
+    def test_watch_add_validates(self):
+        with self.assertRaises(self.w.IngestError):
+            self.w.cmd_watch_add("concepts/none.md", "https://example.com/x")
+        with self.assertRaises(self.w.IngestError):
+            self.w.cmd_watch_add("concepts/cuda-toolkit.md", "file:///etc/passwd")
+        self.assertEqual(self.w.read_watch()[0]["focus"], "最新版本")
+
+    def test_baseline_then_unchanged_then_not_due(self):
+        self.pages = [self.V1, self.V1.replace("10:30", "23:59")]   # 只有時間變：算沒變 / clock noise only
+        self.run_refresh()
+        self.assertEqual(len(self.raws()), 1)
+        self.assertEqual(self.w.read_watch() and (self.v / "concepts" / "cuda-toolkit.md").read_text(encoding="utf-8"),
+                         self.PAGE)
+        self.expire()
+        self.run_refresh()
+        self.assertEqual(len(self.raws()), 1)
+        self.run_refresh()                                         # 還沒到期，不會再抓（pages 已空）/ not due
+        self.assertEqual(self.asked, [])
+
+    def test_change_appends_update_and_keeps_old_text(self):
+        self.pages = [self.V1, self.V2]
+        self.run_refresh()
+        self.expire()
+        reply = ('{"changes": [{"kind": "改變", "old": "最新版本：CUDA 13.0", "new": "最新版本：CUDA 13.1", '
+                 '"summary": "新版 13.1"}, {"kind": "改變", "old": "編造的句子", "new": "最新版本：CUDA 99", '
+                 '"summary": "沒證據"}]}')
+        self.run_refresh(reply)
+        self.assertEqual(len(self.raws()), 2)                      # 舊版原文還在 / old snapshot kept
+        text = (self.v / "concepts" / "cuda-toolkit.md").read_text(encoding="utf-8")
+        self.assertTrue(text.startswith(self.PAGE.rstrip("\n")))  # 原本內文一字不差 / old text untouched
+        self.assertIn("舊：最新版本：CUDA 13.0 → 新：最新版本：CUDA 13.1", text)
+        self.assertNotIn("CUDA 99", text)                          # 沒證據的丟掉 / unsupported change dropped
+        self.assertIn("【文件：", self.asked[0])
+        log = subprocess.run(["git", "-C", str(self.v), "log", "--format=%s"], capture_output=True, text=True).stdout
+        self.assertIn("refresh: concepts/cuda-toolkit.md", log)
+
+    def test_big_change_and_failures_need_a_human(self):
+        self.pages = [self.V1, {"text": "完全不同的網頁\n請登入後繼續\n其他內容其他內容\n", "title": "登入"}]
+        self.run_refresh()
+        self.expire()
+        self.run_refresh('{"changes": [{"kind": "新增", "old": "", "new": "請登入後繼續", "summary": "x"}]}')
+        self.assertEqual(len(self.raws()), 2)
+        self.assertEqual((self.v / "concepts" / "cuda-toolkit.md").read_text(encoding="utf-8"), self.PAGE)
+        self.assertEqual(self.asked, [])
+        for _ in range(3):
+            self.expire()
+            self.pages = [{"error": "http_403"}]
+            self.run_refresh()
+        st = next(iter(self.w.load_state().values()))
+        self.assertEqual(st["fails"], 3)
+        self.expire()
+        self.run_refresh()                                         # 暫停，不再打對方網站 / paused
+        report = next((self.v / ".tools").glob("refresh-report-*.md")).read_text(encoding="utf-8")
+        self.assertIn("需要人看", report)
+
+    def test_release_page_churn_still_updates(self):
+        self.pages = [self.V1, "CUDA 14.0 發佈\n全新的編譯器\n更快的核心啟動\n"]   # 同標題、內容大換 / same title
+        self.run_refresh()
+        self.expire()
+        self.run_refresh('{"changes": [{"kind": "新增", "old": "", "new": "CUDA 14.0 發佈", "summary": "新版"}]}')
+        self.assertIn("新增：CUDA 14.0 發佈", (self.v / "concepts" / "cuda-toolkit.md").read_text(encoding="utf-8"))
+        self.assertLessEqual(len(self.asked[0]), self.w.MAX_DIFF_CHARS + 1500)
+
+    def test_one_fetch_per_site(self):
+        (self.v / "concepts" / "gpu2.md").write_text("---\ntitle: g\n---\n\nx\n", encoding="utf-8")
+        self.quiet(self.w.cmd_watch_add, "concepts/gpu2.md", "https://example.com/other")
+        self.run_refresh()
+        self.assertEqual(len(self.w.load_state()), 1)
+
+    def test_fetch_refuses_private_addresses(self):
+        root = Path.home() / "projects" / "jiezi_LLM"
+        if not (root / ".venv" / "bin" / "python").exists():
+            self.skipTest("沒有芥子 venv")
+        self.assertEqual(self.w.fetch_url("http://127.0.0.1:36100/", root)["error"], "private_address")
+
+
 if __name__ == "__main__":
     unittest.main()

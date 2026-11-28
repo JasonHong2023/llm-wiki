@@ -18,3 +18,5 @@ Thumbs.db
 .tools/inbox/
 .tools/batch-state.jsonl
 .tools/__pycache__/
+.tools/watch-state.json
+.tools/refresh-report-*.md
