@@ -4,3 +4,8 @@
   url: https://opencode.ai/docs/
   every: weekly
   focus: 安裝方式、設定檔、指令與功能
+
+- page: concepts/2026_OpenCode_教程完整安裝設定與配置指南_NxCode.md
+  url: https://github.com/anomalyco/opencode/releases
+  every: weekly
+  focus: 最新版本號、發佈日期、重大變更
