@@ -64,3 +64,8 @@
   url: https://github.com/mco-org/squad/releases
   every: weekly
   focus: 最新版本號、發佈日期、重大變更
+
+- page: concepts/flomesh_ioztm_ZTM_Zero_Trust_Mesh_is_a_privacy_first_open_so.md
+  url: https://github.com/flomesh-io/ztm/releases
+  every: weekly
+  focus: 最新版本號、發佈日期
