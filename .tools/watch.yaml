@@ -59,3 +59,8 @@
   url: https://github.com/koala73/worldmonitor
   every: weekly
   focus: 功能與資料來源
+
+- page: concepts/squad.md
+  url: https://github.com/mco-org/squad/releases
+  every: weekly
+  focus: 最新版本號、發佈日期、重大變更
