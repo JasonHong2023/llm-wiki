@@ -44,3 +44,8 @@
   url: https://gemini.google/release-notes/
   every: weekly
   focus: 新功能與模型版本
+
+- page: concepts/AI_訓練用伺服器_GPU_規格建議_2026_09_13.md
+  url: https://www.pugetsystems.com/solutions/ai/develop/hardware-recommendations/
+  every: monthly
+  focus: GPU 型號、VRAM、記憶體建議
