@@ -19,3 +19,8 @@
   url: https://hermes-agent.nousresearch.com/docs/
   every: weekly
   focus: 指令與功能
+
+- page: concepts/Hermes_Agent_vs_OpenClaw2026_年最完整的_AI_Agent_比較.md
+  url: https://github.com/openclaw/openclaw/releases
+  every: weekly
+  focus: OpenClaw 最新版本號、發佈日期、重大變更
