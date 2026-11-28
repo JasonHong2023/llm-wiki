@@ -79,3 +79,8 @@
   url: https://github.com/jamiepine/voicebox
   every: weekly
   focus: 支援的 TTS 引擎與功能
+
+- page: concepts/rahulnykknowledge_graph_Convert_any_text_to_a_graph_of_knowl.md
+  url: https://github.com/rahulnyk/knowledge_graph
+  every: monthly
+  focus: 功能與用法
