@@ -39,3 +39,8 @@
   url: https://peps.python.org/pep-0790/
   every: weekly
   focus: 3.15 發佈時程與版本
+
+- page: concepts/Google_Gemini.md
+  url: https://gemini.google/release-notes/
+  every: weekly
+  focus: 新功能與模型版本
