@@ -193,9 +193,9 @@ categories:
     first_seen: '2026-06-30'
     last_updated: '2026-07-02'
   - name: 知識圖譜
-    count: 31
+    count: 32
     first_seen: '2026-06-30'
-    last_updated: '2026-07-07'
+    last_updated: '2026-11-28'
   - name: 版本控制
     count: 1
     first_seen: '2026-06-30'
@@ -1333,9 +1333,9 @@ categories:
     first_seen: '2026-07-02'
     last_updated: '2026-07-02'
   - name: 教育
-    count: 1
+    count: 2
     first_seen: '2026-07-02'
-    last_updated: '2026-07-02'
+    last_updated: '2026-11-28'
   - name: 知識
     count: 1
     first_seen: '2026-07-02'

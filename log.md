@@ -427,3 +427,4 @@ Chronological record of all wiki actions. Append-only.
 | 2026-11-28T11:05 | ingest | raw/articles/tw-taxonomy-readme-summary.md | wiki_ingest add from tw-taxonomy-readme-summary.md; sha256=368465f64aa2; source=https://github.com/seyen37/tw-taxonomy |
 | 2026-11-28T11:05 | ingest | raw/articles/cuda-programming-guide-summary.md | wiki_ingest add from cuda-programming-guide-summary.md; sha256=13d2b33b533f; source=https://docs.nvidia.com/cuda/cuda-programming-guide/index.html |
 | 2026-11-28T11:05 | create | cuda-programming-guide.md | NVIDIA 官方 CUDA 程式設計指南的架構與五個部分; type=concept; tags=CUDA,NVIDIA,GPU程式設計,平行運算; source=raw/articles/cuda-programming-guide-summary.md |
+| 2026-11-28T11:06 | create | tw-taxonomy.md | 以 108 課綱為本的國小學習知識圖譜：569 微主題、717 先修關係; type=concept; tags=知識圖譜,教育; source=raw/articles/tw-taxonomy-readme-summary.md |
